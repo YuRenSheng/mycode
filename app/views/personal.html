@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>個人資料</title>
+  </head>
+  <link rel="stylesheet" href="../static/css/personal.css">
+  <body style="background:#f2f2f2">
+    <div class="per-head">
+      <img class="" src=".././static/images/rect.png" alt="加載中...">
+      <span class="per-best-font">個人資料</span>
+      <button class="per-sub" id="preser" disabled="disabled">保存</button>
+    </div>
+
+    <div class="per-best-info">
+      <!-- background:#00ff00; -->
+      <!-- 標題 -->
+      <div class="" style="padding-top:10px;margin-left:10px">
+        <img class="" src=".././static/images/rect.png" alt="加載中...">
+        <span class="per-best-font">基本信息</span>
+      </div>
+      <!-- 基本信息內容 -->
+      <div class="" style="margin-left:23px;">
+
+        <form class="" action="index.html" method="post" id="personal_form">
+          <div class="per-magin">
+                    <span class="per-best per-best-sty">工號</span><span class="per-infomeition per-infomeition-f">F2845142</span>
+          </div>
+
+          <div class="per-magin">
+                    <span class="per-best per-best-sty">姓名</span><span class="per-infomeition per-infomeition-f">李夢旗</span>
+          </div>
+
+          <div class="per-magin">
+                    <span class="per-best per-best-sty">帳號</span><span class="per-infomeition per-infomeition-f">F2845142</span>
+          </div>
+
+          <div class="per-magin">
+                    <span class="per-best per-best-sty">頭像</span>
+                    <div class="per-infomeition per-infomeition-w"></div>
+                    <span class="per-infomeition-wr per-infomeition-i">僅支持JPG,PNG格式,文件小於1M（方形圖）</span><br>
+                    <div style="position:relative;">
+                      <img class="per-img" src="../static/images/index_phone.png" alt="加載中...">
+                      <div class="per-headsadow">
+                        <div class="per-head-f">修改頭像</div>
+                      </div>
+                    </div>
+          </div>
+
+          <div class="per-magin">
+                    <span class="per-best-sty" style="margin-left:8px">性別</span>
+                    <span class="per-infomeition">
+                      <label for="boy">男</label>
+                      <div class="per-infomeition-sex">
+                        <input class="radioclass" type="radio" name="sex" value="男" id="boy"/><span></span>
+                      </div>
+
+
+                      <label style="padding-left:10px" for="gril">女</label>
+                        <div class="per-infomeition-sex">
+                          <input class="radioclass" type="radio" name="sex" value="女" id="gril"/><span></span>
+                        </div>
+                    </span>
+
+          </div>
+
+          <div class="per-magin" style="position: relative;">
+                    <span style="color:#fc4343">*</span><span class="per-best-sty">郵箱</span>
+                    <span class="per-infomeition">meng-qi.li@mail.foxconn.com</span>
+                    <div class="icon-icon_weibo icon-greenyes" ></div>
+                    <a href="#" class="per-best per-update-font">修改</a>
+
+          </div>
+
+          <div class="per-magin">
+                    <span style="color:#fc4343">*</span><span class="per-best-sty">手機號</span>
+                    <span style="margin-left:24px">
+                      <input id="userPhone" class="input-style" size="20" type="text" name="firstname" value="13297455560">
+                      <div class="icon-icon_weibo" id="hand_phone"></div>
+                    </span>
+
+          </div>
+
+          <div class="per-magin" style="padding-bottom:30px">
+            <span style="color:#fc4343">*</span><span class="per-best-sty">分機</span>
+                    <span class="per-infomeition">
+                      <input id="userLockPhone" class="input-style" size="20" type="text" name="firstname" value="80201">
+                      <div class="icon-icon_weibo" id="lock_phone"></div>
+                    </span>
+
+          </div>
+        </form>
+
+
+      </div>
+    </div>
+
+    <div class="per-infomeition-emp">
+      <!-- 標題 -->
+      <div class="per-head">
+        <img class="" src=".././static/images/rect.png" alt="加載中...">
+        <span class="per-best-font">員工信息</span>
+      </div>
+      <!-- 內容 -->
+      <div class="" style="margin-left:23px;">
+        <div class="per-magin" style="position: relative;">
+                  <span style="color:#fc4343">*</span><span class="per-best-sty">部門</span>
+                  <span class="per-infomeition">RYA307D-FIH-A次集團-ACKN-ACKH事業處-ACKH龍華產品處</span>
+                  <div class="icon-icon_weibo icon-greenyes" ></div>
+                  <a href="#" class="per-best per-update-font">修改</a>
+        </div>
+        <div class="per-magin">
+                  <span class="per-best per-best-sty">資位</span><span class="per-infomeition per-infomeition-f">師2</span>
+        </div>
+        <div class="per-magin">
+                  <span class="per-best per-best-sty">職位</span><span class="per-infomeition per-infomeition-f">無</span>
+        </div>
+        <div class="per-magin per-magin-bot">
+                  <span class="per-best per-best-sty">直屬主管</span><span class="per-infomeition-z per-infomeition-f">F2846061-小明-專利</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 保存成功 -->
+    <div class="success hide">
+      <div class="success-img"><img src="../static/images/update_success.png" alt="加載中..."></div>
+      <div class="success-f">保存成功</div>
+    </div>
+
+    <script type="text/javascript" src=".././static/libs/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src=".././static/js/url.js"></script>
+    <script type="text/javascript" src=".././static/js/personal.js"></script>
+  </body>
+</html>

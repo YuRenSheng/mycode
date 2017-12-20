@@ -1,0 +1,203 @@
+<!-- <!DOCTYPE html>
+<html>
+<script>
+//
+// function message()
+// {
+// txt = "<p>浏览器代码名: " + navigator.appCodeName + "</p>";
+// txt+= "<p>浏览器名称: " + navigator.appName + "</p>";
+// txt+= "<p>浏览器平台和版本: " + navigator.appVersion + "</p>";
+// txt+= "<p>是否开启cookie: " + navigator.cookieEnabled + "</p>";
+// txt+= "<p>操作系统平台: " + navigator.platform + "</p>"; txt+= "<p>User-agent头部值: " + navigator.userAgent + "</p>";
+// document.getElementById("example").innerHTML=txt;
+// if ((navigator.appName=="Netscape" || navigator.appName=="Microsoft Internet Explorer") && (parseFloat(navigator.appVersion)>=4))
+// { alert("您的浏览器够先进了！"); }
+// else
+// { alert("是时候升级您的浏览器了！");
+// }
+// }
+
+function getBrowserInfo()
+{
+var agent = navigator.userAgent.toLowerCase() ;
+
+var regStr_ie = /msie [\d.]+;/gi ;
+var regStr_ff = /firefox\/[\d.]+/gi
+var regStr_chrome = /chrome\/[\d.]+/gi ;
+var regStr_saf = /safari\/[\d.]+/gi ;
+//IE
+if(agent.indexOf("msie") > 0)
+{
+    alert("IE")
+return agent.match(regStr_ie) ;
+}
+
+//firefox
+if(agent.indexOf("firefox") > 0)
+{
+  alert("火狐")
+
+return agent.match(regStr_ff) ;
+}
+
+//Safari
+if(agent.indexOf("safari") > 0 && agent.indexOf("chrome") < 0)
+{
+return agent.match(regStr_saf) ;
+}
+
+//Chrome
+if(agent.indexOf("chrome") > 0)
+{
+  alert("谷歌")
+    // alert(agent.match(regStr_chrome))
+return agent.match(regStr_chrome) ;
+
+}
+
+}
+var browser = getBrowserInfo() ;
+alert(browser);
+var verinfo = (browser+"").replace(/[^0-9.]/ig,"");
+</script>
+<body>
+<button type="button" onclick="getBrowserInfo()">Try it</button>
+<<div id="example"></div>
+</body>
+</html> -->
+<!--
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>点击按钮复制网址完美无错版JS代码_懒人建站-解放出你的部分写代码时间来思考更高层次的设计</title>
+<meta name="keywords" content="HTML+CSS模板,HTML+CSS教程,HTML+CSS导航菜单,FLASH焦点图,网页特效" />
+<meta name="description" content="懒人建站为您提供-HTML+CSS模板，HTML+CSS教程，JS广告代码，HTML+CSS导航菜单，FLASH焦点图片，国外网页设计欣赏与模板和CSS技巧。" />
+
+<style>
+a.btn01{
+	width:179px;
+	height:50px;
+	line-height:50px;
+	display:block;
+	text-align:center;
+	color:#FFF;
+	font-size:10.5pt;
+	overflow:hidden;
+	background-image:url(http://www.51xuediannao.com/uploads/soft/texiao/upimg/btn_1.gif);
+	background-repeat: no-repeat;
+	text-decoration: none;
+	font-weight: bold;
+	}
+a.btn01:hover{
+		text-decoration:none;}
+
+</style>
+</head>
+
+<body>
+<script type="text/javascript">
+function setCopy(content){
+    if(navigator.userAgent.toLowerCase().indexOf('ie') > -1) {
+        clipboardData.setData('Text',content);
+        alert ("该地址已经复制到剪切板");
+    } else {
+        prompt("请复制网站地址:",content);
+    }
+}
+
+</script>
+<a href="http://www.51xuediannao.com/" onclick="setCopy(this.href);return false;" class="btn01" target="_self">复制此链接网址</a>
+ -->
+
+
+
+<!--下面只是说明与程序代码无关-->
+<!-- <div style="width:95%; height:auto; display:block; margin:0 auto; margin-top:30px; font-size:10pt; line-height:150%;">
+<span>本代码由<a href="http://www.51xuediannao.com" style="color:#F00;">懒人建站网 收集整理</a> </span><br>
+<a href="http://www.51xuediannao.com">懒人建站 http://www.51xuediannao.com</a><br/>
+<span>我们为您提供-HTML+CSS模板，HTML+CSS教程，JS广告代码，HTML+CSS导航菜单，FLASH焦点图片，国外网页设计欣赏与模板和CSS技巧。；</span>
+<span>懒人建站只收录实用和能提高用户体验的代码</span>
+<span>我们只想解放出你的部分写代码时间来思考更高层次的设计，而不是要你懒惰、拼凑。</span>
+</div>
+
+</body>
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>..</title>
+  </head>
+  <script type="text/javascript">
+     /*Copy function implementation */
+        function copyContent(){
+        var copyobject=document.getElementById("copy-content");
+        copyobject.select();
+        document.execCommand("Copy");
+        alert("已复制成功哦~");
+    };
+</script>
+  <body>
+
+
+<form action="">
+      <input type="text" class="share-input"  value="http://www.youtube.com" id="copy-content"/>
+      <button class="copy-button" type="button" onclick="copyContent();"> 复制 </button>
+</form>
+
+
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>瀏覽器檢測</title>
+    <link rel="stylesheet" href="../static/css/detection.css">
+  </head>
+  <body onload="load()">
+    <div style="float: left;position:absolute;z-index:-1"><input type="text" style="" value=""  id="123"></div>
+    <div class="detection_background">
+      <div class="content-wrap">
+        <div class="detection_txt">
+        <span class="detection_font">
+          本系統不支持IE8瀏覽器， 我們支持的瀏覽器如左圖示例（可點擊下載）: <br>
+          您可以複製本頁鏈接到其他瀏覽器中打開。
+          <img
+            id="detection_copy"
+            style="vertical-align:text-bottom;padding-left:10px;"
+            src="../static/image/detection_normal.png" alt="加載中..."
+            style="margin-left:10px"
+            onmouseover="APP.detection.changeImage()"
+            onmouseout="APP.detection.backImage()"
+            onclick="APP.detection.copyPath()">
+        </span><br>
+        <!-- <span id="123" style="display:none"></span> -->
+
+        <span class="detection_font">如需協助，請聯繫IT。（分機：560-65423）</span>
+        </div>
+        <div class="detection_image">
+
+          <div style="float:left;margin-left:28px">
+            <a id="firefox" onclick="APP.detection.browserDown('firefox')"><img src="../static/image/detection_fire_font.png" alt="加載中..."></a>
+          </div>
+
+          <div style="float:left;margin-left:48px">
+            <a id="chrome" onclick="APP.detection.browserDown('chrome')"><img src="../static/image/detection_chorme_font.png" alt="加載中..."></a>
+          </div>
+
+          <div style="float:left;margin-left:48px">
+            <a id="ie" onclick="APP.detection.browserDown('ie')"><img src="../static/image/detection_IE_font.png" alt="加載中..."></a>
+          </div>
+        </div>
+      </div>
+    </div>
+<script type="text/javascript" src=".././static/js/url.js"></script>
+<script src="../static/js/detection.js"></script>
+  </body>
+</html>

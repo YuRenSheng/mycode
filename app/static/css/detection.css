@@ -1,0 +1,29 @@
+.detection_background{
+  background:#f5f6b4;
+  height:164px;
+  z-index: 1;
+}
+.detection_txt{
+display: inline-block;
+margin-top: 28px;
+}
+.detection_image{
+display: inline-block;
+text-align: center;
+position: relative;
+top: 12px;
+}
+.detection_font{
+  line-height: 30px;
+  font-size: 16px;
+  color: #333333;
+}
+.content-wrap{
+  width: 850px;
+  margin: 0 auto;
+  position: relative;
+}
+body{
+margin:0px;
+padding:0px;
+}

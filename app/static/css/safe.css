@@ -1,0 +1,339 @@
+.safe-head{
+  padding-top:10px;
+  margin-left:10px;
+  padding-bottom:10px
+}
+.safe-best-font{
+  margin-left:5px;
+  font-size: 16px;
+  color: #333333;
+}
+.safe-best-info{
+  /*height:500px;*/
+  width:95%;
+  margin:0 auto;
+  background:#ffffff;
+}
+.safe-poision{
+  position: relative;
+  width: 96%;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: solid 1px #dddddd;
+}
+.safe-pwd{
+  float: left;
+  margin-top: 27px;
+  display: inline-block;
+}
+.safe-pwd-font{
+float: left;
+margin-top: 17px;
+margin-left: 10px;
+}
+.safe-update{
+  margin-top: 22px;
+  float: right;
+}
+.safe-bottom{
+  width: 100px;
+  height: 36px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 4px;
+  background: #1d82d2;
+  border: 0px;
+  cursor:pointer;
+}
+.safe-bottom-c{
+  background: #0096ff!important;
+}
+.safe-icon-greenyes{
+  background-image: url(../images/2.png);
+  background-position: 0px 0px;
+}
+.safe-icon-icon_weibo {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+  top:50%;
+  transform:translateY(30%);
+}
+.safe-arldy{
+  font-size: 14px;
+  color: #56bd5b;
+  margin-left: 6px;
+}
+.safe-arldy-div{
+  width: 100px;
+  margin-top: 5px;
+  float: left;
+}
+.safe-pwd-lo{
+  font-size: 14px;
+  color: #666666;
+}
+.safe-pwd-u{
+  font-size: 14px;
+  color: #999999;
+}
+:focus {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+body{margin: 0;padding: 0}
+.background{margin-left: 100px;}
+p{height: 40px;line-height: 40px;}
+.open-model{
+  text-align: center;
+}
+.open-model input{
+  padding: 10px 20px;
+  font-size: 24px;
+  line-height: 24px;
+  border: 0px;
+  background: #F53639;
+  color: #FFF;
+  cursor: pointer;
+}
+.open-model input:hover{
+  background: #F3726D;
+}
+.open-model input:focus{
+  border: 0px;
+  outline-width: 0px;
+}
+.model{
+  opacity: 0.75;
+  background: #666;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1000;
+}
+.model-dialog{
+  width: 400px;
+  /*height: 327px;*/
+  background: #FFF;
+  position: absolute;
+  z-index: 1001;
+  left:0;
+  top: 0;
+}
+.model-dialog-mail{
+  width: 400px;
+  /*height: 327px;*/
+  background: #FFF;
+  position: absolute;
+  z-index: 1001;
+  left:0;
+  top: 0;
+}
+.hide{
+  display: none;
+}
+.safe-model-upfont{
+  font-size: 16px;
+  color: #333333;
+  padding-left: 20px;
+
+  display: inline-block;
+}
+.safe-model-close{
+  font-size: 20px;
+  float: right;
+  width: 30px;
+}
+.safe-model-head{
+  position:relative;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: solid 1px #dddddd;
+}
+.safe-model-content{
+  /*position: absolute;
+  top: 20%;
+  transform: translateY(-20%);
+  left: 50%;
+  transform: translateX(-50%);
+  /*background: #D2D2D2;*/
+  /*width: 80%;*/
+  /*height: 200px;*/
+  width: 318px;
+ margin: 0 auto;
+}
+.safe-model-oldpwd{
+margin-top: 20px;
+display: inline-block;
+}
+.safe-model-oldpwd-con{
+  margin-left: 50px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.oldpwd-font{
+  font-size: 14px;
+  color: #333333;
+  width: 90px;
+}
+.inoldpwd-font{
+  font-size: 14px;
+  color: #999999;
+  padding-left: 10px;
+  width: 220px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box; /* Safari */
+}
+.inoldpwd-font-ver{
+  font-size: 14px;
+  color: #999999;
+  padding-left: 10px;
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #dddddd;
+  box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box; /* Safari */
+}
+.strength {
+  /*border: 1px solid #dddddd;*/
+  left:95px;
+  top:65px;
+  position:absolute;
+  width:264px;
+  line-height: 16px;
+  /*font-size: 12px;*/
+  /*display:none;*/
+  visibility: hidden;
+}
+.strength span {
+  float:left;
+  display:block;
+  width:23px;
+  height:8px;
+  border: 1px solid #dddddd;
+  border-right: transparent;
+}
+.strength #enough-one {border-top-left-radius: 4px;border-bottom-left-radius: 4px;}
+.strength #strong-three {border-right: 1px solid #dddddd;border-top-right-radius: 4px;border-bottom-right-radius: 4px;}
+
+.errorTip {
+    width: 20px;
+    height:20px;
+    background-position: -40px 0px;
+    top:175px;
+    margin:0;
+}
+
+.msg {
+    float:left;
+    line-height: 20px;
+    position:absolute;
+    width:220px;
+    /*right:-225px;*/
+    z-index:99;
+    color:#f03838;
+    font-size: 12px;
+    display:inline-block;
+    visibility: visible;
+}
+i {
+    float:left;
+    line-height: 20px;
+   background:url(../images/ico.png) no-repeat;
+    width:20px;
+    height:20px;
+}
+.okTip {
+
+    width: 20px;
+    height:20px;
+    background-position: -40px -20px;
+    top:175px;
+}
+.safe-buttom{
+  width: 120px;
+  height: 36px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  box-sizing:border-box;
+-moz-box-sizing:border-box; /* Firefox */
+-webkit-box-sizing:border-box; /* Safari */
+  /*width:50%;*/
+  float:left;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+.safe-buttom-code{
+  margin-top: 30px;
+}
+.safe-buttom-mail{
+  margin-top: 20px;
+}
+.safe-sure{
+  /*margin-left: 100px;*/
+  background: #dddddd;
+  color: #ffffff;
+}
+.safe-cancel{
+  margin-left: 10px;
+  color: #666666;
+  background: #fff;
+}
+.clear_btn {
+    background:url(../images/ico.png) no-repeat;
+    /*display:block;*/
+    position:absolute;
+    /*right:48px;*/
+    top:10px;
+    visibility: visible;
+    width:20px;
+    height:20px;
+    background-position:0 -40px;
+    cursor:pointer;
+}
+.button-style{
+  width: 250px;
+  margin: 0 auto;
+}
+.safe-model-getver{
+  width: 90px;
+  height: 40px;
+  border-radius: 4px;
+  background: #f7f7f7;
+  border: solid 1px #dddddd;
+  font-size: 12px;
+  color: #666666;
+  margin-left: 8px;
+}
+.mail-ver-send{
+  font-size: 12px;
+  color: #666666;
+  width: 220px;
+  height: 26px;
+  background: #fffddb;
+  margin-top: 10px;
+  margin-left: 93px;
+}
+.mail-pos{
+  /*width: 176px;*/
+  line-height: 26px;
+  margin-left: 10px;
+  /*margin: 0 auto;*/
+}
+/*.mail-login{
+  width: 320px;
+  margin: 0 auto;
+}*/
+/*.button-warp{
+  width: 98%;
+
+}*/

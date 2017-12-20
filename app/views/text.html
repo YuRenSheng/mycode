@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>文字从下到上无缝轮播</title>
+    <style>
+        #rollCon{width: 80%;text-align: center;display: block;overflow: hidden;color: black;height: 35%;position: absolute;top: 55%;left: 10%;}
+        #rollSubject{height: auto;}
+        #rollCopy{height: auto;}
+    </style>
+</head>
+<body>
+<div id="rollCon">
+    <div id="rollSubject">
+        <p>骑着单车的我俩</p>
+        <p>怀紧贴背的拥抱</p>
+        <p>难离难舍想抱紧些</p>
+        <p>茫茫人生好象荒野 </p>
+        <p>如孩儿能伏于爸爸的肩膊 </p>
+        <p>谁要下车 </p>
+    </div>
+    <div id="rollCopy"></div>
+</div>
+<script src="../static/libs/jquery/jq-laest.js"></script>
+<script>
+    var scrollTop = window.pageYOffset|| document.documentElement.scrollTop || document.body.scrollTop;
+    var rollCon = document.getElementById('rollCon');
+    var rollSubject = document.getElementById('rollSubject');
+    var rollCopy = document.getElementById('rollCopy');
+    rollCopy.innerHTML = rollSubject.innerHTML;
+    if(($('#rollSubject').height()>0)&&($('#rollSubject').height()<$('#rollCon').height())){
+        $('#rollCon').css('height',$('#rollSubject').height());
+        setInterval(Marquee, 50);
+    }else if(($('#rollSubject').height()>0)&&($('#rollSubject').height()>=$('#rollCon').height())){
+        setInterval(Marquee, 50);
+    }
+    function Marquee() {
+        if ((rollCopy.offsetTop-rollSubject.offsetTop)<rollCon.scrollTop)
+            rollCon.scrollTop =0;
+        else {
+            rollCon.scrollTop++;
+        }
+    }
+</script>
+</body>
+</html>

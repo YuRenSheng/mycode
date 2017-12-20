@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>ACKH 辦公自動化平臺_電子簽核系統</title>
+  <!--响应式布局插件-->
+  <link rel="stylesheet" href="/static/libs/bootstrap/css/bootstrap.min.css">
+  <!--基于响应式布局的上传功能插件-->
+  <link rel="stylesheet" href="/static/libs/bootstrap/fileinput/css/fileinput.min.css">
+  <!--基于响应式布局的table插件-->
+  <link rel="stylesheet" href="/static/libs/bootstrap/css/bootstrap-table.css">
+  <!--easyui插件-->
+  <link rel="stylesheet" href="/static/libs/jquery/easyui/css/easyui.css">
+  <link rel="stylesheet" href="/static/libs/jquery/easyui/css/icon.css">
+  <!--富文本插件-->
+  <link rel="stylesheet" href="/static/libs/wangEditor/css/wangEditor.min.css">
+  <!--提示框、弹出框插件-->
+  <link rel="stylesheet" href="/static/libs/jquery/plugins/alertable/css/jquery.alertable.css">
+  <!--基本样式表-->
+  <link rel="stylesheet" href="/static/css/bass.css">
+  <link rel="stylesheet" href="/static/css/sign.css">
+</head>
+<body class="f12 rf12">
+  <div class="sign-wrap">
+    <!--頁面標題-->
+    <div class="sign-title">
+      <span class="slip"></span>
+      <h4 class="f16 rf16">單據簽核</h4>
+    </div>
+    <!--申請人信息與申請資料-->
+    <div class="sign-applicant-information">
+      <h3 class="sign-theme" id="signTheme"></h3>
+      <span class="sign-document-type fr" id="signDocumentType">單據類型：</span>
+      <div class="sign-base-information cb pr">
+        <span class="sign-input-wrap">
+          <label class="sign-label sign-label-code" for="signCostCode">費用代碼</label>
+          <input class="sign-input sign-input-code" id="signCostCode" type="text">
+        </span>
+        <span class="sign-input-wrap">
+          <label class="sign-label sign-label-dept" for="signDeptName">部門名稱</label>
+          <input class="sign-input sign-input-dept" id="signDeptName" type="text"><br>
+        </span>
+        <span class="sign-input-wrap">
+          <label class="sign-label sign-label-ID" for="signApplicantID">申請人工號</label>
+          <input class="sign-input sign-input-ID" id="signApplicantID" type="text">
+        </span>
+        <span class="sign-input-wrap">
+          <label class="sign-label sign-label-name" for="signApplicantName">申請人姓名</label>
+          <input class="sign-input sign-input-name" id="signApplicantName" type="text">
+        </span>
+        <span class="sign-input-wrap">
+          <label class="sign-label" for="signNumber">申請人電話</label>
+           <input class="sign-input sign-input-number" id="signNumber" type="text">
+        </span>
+        <span class="sign-input-wrap">
+          <label class="sign-label sign-label-mail" for="signMail">申請人郵箱</label>
+          <input class="sign-input sign-input-mail" id="signMail" type="text"><br>
+        </span>
+        <span class="sign-input-wrap">
+          <span class="sign-label-reason fl">申請理由</span>
+          <div class="sign-input-reason fl" id="signApplicationReason"></div>
+        </span>
+      </div>
+      <div class="sign-data cb" id="signData">
+        <h5 class="sign-upload-title">附件內容</h5>
+        <div class="file-loading pr">
+          <input class="sign-upload-content" id="signUploadContent" type="file" multiple>
+        </div>
+      </div>
+    </div>
+    <!--審核人順序-->
+    <div class="sign-auditor">
+      <h5 class="f14 rf14">審核人順序</h5>
+      <span class="sign-line"></span>
+      <div class="sign-set-auditor-wrap">
+        <table class="sign-set-auditor" id="signSetAuditor"></table>
+      </div>
+    </div>
+    <!--審核人意見-->
+    <div class="sign-examine pr">
+      <h5 class="f14 rf14">廠/部級主管審核</h5>
+      <span class="sign-line"></span>
+      <span class="sign-leader-name" id="signLeaderName">主管簽核：</span>
+      <span class="sign-span-result">結果：</span>
+      <input class="sign-radio" name="result" value='同意' type="radio" checked style="margin-left: 30px;">同意
+      <input class="sign-radio" name="result" value='拒絕' type="radio" style="margin-left: 30px;">拒絕
+      <label class="sign-label-suggestion pr" for="signSuggestion">簽核意見:</label>
+      <span class="sign-input-suggestion-wrap pr">
+        <input class="sign-input-suggestion" id="signSuggestion" type="text">
+      </span>
+      <div class="sign-return-path-wrap">
+        <label class="sign-return-path" for="returnPath">退件指向:</label>
+        <input class="sign-return-path-input" id="returnPath" name="退件指向">
+      </div>
+      <div class="function-btn">
+        <a class="sign-submit" id="signSubmit" href="#">提交</a>
+        <a class="sign-cancel" id="signCancel" href="#">放棄</a>
+      </div>
+    </div>
+    <!--簽核歷史-->
+    <div class="sign-history-wrap">
+      <span class="sign-record-label">簽核記錄</span>
+      <div class="sign-history-table-wrap">
+        <table class="sign-history" id="signHistory"></table>
+      </div>
+    </div>
+  </div>
+  <!--頁面加載後渲染form_id及登錄人工號-->
+  <span id="form_id" style="display: none;">{{form_id}}</span>
+  <span id="emp_no" style="display: none">{{emp_no}}</span>
+   <script src="./../static/libs/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript">
+    window.jQuery || document.write("<script src='./../static/libs/jquery/jquery-3.2.1.min.js'>" + "<" + "/script>");
+  </script>
+  <script src="/static/libs/jquery/easyui/js/jquery.easyui.min.js"></script>
+  <script src="/static/libs/wangEditor/js/wangEditor.min.js"></script>
+  <script src="/static/libs/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/static/libs/fileinput/js/fileinput.min.js"></script>
+  <script src="/static/libs/bootstrap/js/bootstrap-table.js"></script>
+  <script src="/static/libs/bootstrap/js/bootstrap-table-zh-TW.js"></script>
+  <script src="/static/libs/jquery/plugins/alertable/js/jquery.alertable.min.js"></script>
+  <script src="/static/js/url.js"></script>
+  <script src="/static/js/sign.js"></script>
+</body>
+</html>
