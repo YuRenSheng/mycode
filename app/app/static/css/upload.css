@@ -1,0 +1,76 @@
+.pdf-close{
+  position: absolute;
+  right: -70px;
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  cursor:pointer;
+  background: #1d82d2;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+}
+.pdf-close:hover{
+  color: #fff;
+}
+.uploaded-filelist{
+  border:  2px dashed #ccc;
+  padding: 10px;
+  width: 100%;
+}
+.uploaded-pdf-file{
+  border: 1px solid #e1e1e1;
+  color: #000;
+  font-size: 15px;
+  margin-right: 4px;
+  box-shadow: 0 10px 6px -6px #777;
+  padding: 5px;
+  display: inline-block;
+  width: 150px;
+}
+.uploaded-delete,.uploaded-preview{
+  cursor:pointer;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 12px;
+  text-decoration: none;
+  border: 1px solid #aeaeae;
+  padding: 6px;
+  margin: 0 0 0 2px;
+  border-radius: 3px;
+  color: #f5f5f5;
+}
+.uploaded-delete{
+  background: #cf5144 url(./../images/sprite.png) -3px -93px;
+}
+.uploaded-preview{
+  background: #5cb85c url(./../images/magnifier-small.png) no-repeat center;
+}
+.lightbox{
+  position: absolute;
+  top: -50px;
+  left: -10px;
+  height: 100%;
+  width: 105%;
+  z-index: 10000;
+  opacity: 0.3;
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+.pop,iframe{
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 893px;
+  height: 1190px;
+  margin-left: -446.5px;
+  z-index: 10001;
+}
+.uploaded-pdf-name{
+  word-break:break-work;
+}
+.uploaded-filename{
+  display: none;
+}

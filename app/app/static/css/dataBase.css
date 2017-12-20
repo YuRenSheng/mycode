@@ -1,0 +1,44 @@
+html,body{
+  height: 100%;
+}
+.data-base-wrap{
+  width: 100%;
+  height: 100%;
+  padding:30px;
+  background-color: #f2f2f2;
+}
+.slip{
+  display: inline-block;
+  width: 4px;
+  height: 16px;
+  background: url(./../images/slip.png);
+}
+.data-base-title h4{
+  font-weight: 600;
+  display: inline-block;
+  color: #333;
+}
+.data-base-information-wrap{
+  width: 400px;
+  margin: 40px auto auto auto;
+}
+.data-base-label{
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.data-base-input{
+  width: 320px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+}
+.submit{
+  width: 45px;
+  color: #fff;
+  background: #0056a9;
+  margin-top: 30px;
+  margin-right: 10px;
+}

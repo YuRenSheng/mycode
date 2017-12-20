@@ -1,0 +1,118 @@
+
+.introduction {
+    width: 50%;
+    /*height: 450px;*/
+    display: inline-block;
+    float: left
+}
+
+tr,td{font-size:14px;}
+span b{
+  font-size: 16px;
+}
+
+.wellcome-background{
+  background: #fff;
+  width: 99%;
+}
+
+.wellcome-introduce{
+  width: 1180px;
+    margin: 0 auto;
+}
+
+.wellcome-font{
+  width: 568px;
+  height: 420px;
+  display: inline-block;
+}
+
+.wellcome-img{
+  width: 586px;
+  height: 420px;
+  display: inline-block;
+}
+
+.wellcome-title{
+  width: 145px;
+  margin: 0 auto;
+  display: block;
+}
+
+.wellcome-font-position{
+  float: left;
+}
+
+.wellcome-img-position{
+  float: left;
+  position: relative;
+}
+
+.introduction-font-warp{
+  width: 534px;
+  margin: 0 auto;
+}
+
+.introduction-font {
+    padding-top: 50px;
+    padding-left: 26px;
+    font-size: 14px;
+    color: #000000;
+    /*line-height: 2.5;*/
+}
+
+.img-style {
+    width: 50%;
+    /*height: 450px;*/
+    display: inline-block;
+    float: left
+}
+
+.img-logo {
+  position: absolute;
+  right: 22px;
+  top: 11px;
+}
+
+.list-title {
+    padding-top: 30px;
+    padding-bottom: 29px;
+    color: #333333;
+    font-size: 18px;
+    clear: both
+}
+
+.list {
+    width: 100%;
+    padding-bottom: 20px
+}
+
+.list-head {
+    border-bottom: 1px solid #dddddd;
+    width: 100%;
+    height: 52px
+}
+
+.list-head-font {
+    color: #333333;
+    font-size: 16px
+}
+
+.list-content {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 66px;
+    display: inline-block;
+    padding-bottom: 18px
+}
+.list-content-other{
+    margin-left: 247px;
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+    padding-bottom: 18px
+}
+.list-content-font{
+    font-size: 16px;
+    color: #333333;
+}

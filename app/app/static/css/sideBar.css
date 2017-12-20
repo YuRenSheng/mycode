@@ -1,0 +1,181 @@
+* {margin: 0px;
+    padding:0px;
+    box-sizing:border-box;
+ }
+li { list-style:none;
+}
+a {text-decoration: none!important;}
+/*a:hover{text-decoration: none;}*/
+/*.photo{text-decoration: none;}*/
+body {min-height: 100%;}
+#wrap {
+    width:100%;
+    margin:0 auto;
+    background-color: #F2F2F2;
+    /*min-height:100%;*/
+    position: fixed;
+    height:100%;
+}
+
+.section {
+    /*width:100%;*/
+    height: 100%;
+    background-color: #f2f2f2;
+    display: inline-block;
+    margin-left:160px;
+    /*float:right;*/
+}
+.margin-left-50 {
+  margin-left:60px !important;
+}
+.top-bar {
+    /*height:50px;*/
+    /*background-color:#ffffff;*/
+    /*border:1px solid #ddd;*/
+    /*float:right;*/
+    display: inline-block;
+    width:100%;
+    height:50px;
+    background-color: #ffffff;
+    border-bottom:1px solid #ddd;
+    line-height: 50px;
+    position:relative;
+}
+.home {
+    display:inline-block;
+    background: url(../images/2.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+    background-position: 0px -80px;
+    position:relative;
+    top:6px;
+    margin-right:10px;
+}
+.homepage{
+    position:relative;
+    left:30px;
+    font-size: 14px;
+    color:#333333;
+}
+.userInfo{
+    float:right;
+    position:relative;
+    right:20px;
+    top:-50px;
+}
+#photo {
+    position:relative;
+    top:11px;
+    margin-left: 40px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+.text {
+    color:#333333;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.line {
+    /*clear:both;*/
+    display: inline-block;
+    vertical-align: top;
+    position:absolute;
+    top:22px;
+    right:145px;
+    width:1px;
+    height:12px;
+    background-color:#ddd;
+}
+.inform {
+    display:inline-block;
+    background: url(../images/2.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+    background-position: -80px 0px;
+    position:relative;
+    top:6px;
+    /*margin-right:10px;*/
+}
+.draw-right {
+    display:inline-block;
+    background: url(../images/2.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+    position:relative;
+    top:5px;
+    /*left:10px;*/
+    background-position: -220px 0px;
+}
+.draw-down {
+    display:inline-block;
+    background: url(../images/2.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+    position:relative;
+    top:4px;
+    background-position: -100px 0px;
+}
+.draw-up {
+    display:inline-block;
+    background: url(../images/2.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+    position:relative;
+    top:4px;
+    background-position: -120px 0px;
+}
+.photo-draw {
+    width:106px;
+    height:64px;
+    position:relative;
+    right:-20px;
+    margin:0 auto;
+    text-align: center;
+    background-color: #fff;
+    /*opacity: 0;*/
+    visibility: hidden;
+    /*border:1px solid #dd4c3a;*/
+    z-index:999;
+    /*display:none;*/
+}
+.set-exit{
+    line-height: 32px;
+}
+.sprite-name {
+    display:inline-block;
+    background: url(../images/2.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+}
+ .set {
+    position:relative;
+    top:4px;
+    background-position: -260px 0px;
+}
+ .exit {
+    position:relative;
+    top:4px;
+    background-position: -280px 0px;
+}
+
+.photo-sub-text {
+    font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    color:#333333;
+    margin-left: 10px;
+}
+
+
+.toolbar {
+    position: relative;
+    /*height:80px;*/
+    /*top:50px;*/
+    /*border:1px solid #dd3a34;*/
+
+}

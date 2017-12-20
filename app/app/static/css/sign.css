@@ -1,0 +1,544 @@
+.sign-wrap {
+  width: 100%;
+  padding: 30px 30px 50px 30px;
+  background-color: #f2f2f2;
+}
+.sign-wrap h1{
+  text-align: center;
+  font-weight: bold;
+}
+.slip {
+  display: inline-block;
+  width: 4px;
+  height: 16px;
+  background: url(./../images/slip.png);
+}
+
+.sign-title h4 {
+  font-weight: 600;
+  display: inline-block;
+  color: #333;
+}
+.sign-document-NO{
+  margin-right:20px;
+  /*margin-left: 7px;*/
+}
+.sign-line {
+  display: inline-block;
+  /*width: 93%;*/
+  height: 2px;
+  background: url(./../images/line.png);
+}
+
+.textbox-text {
+  background: #f2f2f2;
+}
+
+.sign-input-suggestion-wrap .textbox-text {
+  background: #fff;
+}
+
+.sign-theme {
+  text-align: center;
+  color: #0056a9;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.sign-base-information{
+  margin-top: 15px;
+}
+.file-loading{
+  display: inline-block;
+  width: 90%;
+  margin-left: 20px;
+}
+
+.sign-applicant-information, .sign-auditor, .sign-examine {
+  padding-left: 7px;
+  color: #333;
+}
+
+.sign-applicant-information h5 {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.sign-input, .sign-label {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.sign-label-code, .sign-label-ID {
+  margin-top: 15px;
+}
+
+.sign-label-reason {
+  display: inline-block;
+  margin-top: 15px;
+  width: 72px;
+  font-weight: 600;
+}
+
+.sign-input-reason {
+  display: inline-block;
+  background: #f2f2f2;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  margin-top: 15px;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.sign-label {
+  display: inline-block;
+  width: 70px;
+}
+
+.sign-data {
+  padding-top: 20px;
+}
+
+.sign-document-type h5 {
+  margin-right: 20px;
+}
+
+.sign-editor {
+  width: 1010px;
+  top: -20px;
+  left: 80px;
+  background-color: #fff;
+  z-index: 0;
+}
+
+.sign-editor h1 {
+  font-size: 36px;
+}
+
+.sign-editor h2 {
+  font-size: 28px;
+}
+
+.sign-editor h3 {
+  font-size: 24px;
+}
+
+.sign-editor h4 {
+  font-size: 18px;
+}
+
+.sign-editor h5 {
+  font-size: 14px;
+}
+
+.sign-upload-title {
+  font-weight: 700;
+  color: #0056a9;
+  display: inline-block;
+}
+
+.glyphicon {
+  font-size: 16px;
+  top: 10px;
+}
+
+.file-caption-main {
+  display: none;
+}
+
+.btn-outline-secondary .glyphicon {
+  top: -28px;
+}
+
+.fileinput-remove-button .glyphicon, .fileinput-upload-button .glyphicon, .btn-file .glyphicon {
+  top: 3px;
+}
+
+.sign-auditor h5, .sign-examine h5 {
+  display: inline-block;
+  font-weight: 600;
+}
+
+.file-preview {
+  border: none;
+  padding: 0;
+}
+
+.file-drop-zone {
+  width: 93%;
+  margin: 0;
+}
+
+.file-input {
+  width: 93%;
+  position: relative;
+  top: -20px;
+  left: 80px;
+}
+
+.file-input-ajax-new {
+  position: relative;
+  width: 93%;
+  top: -20px;
+  left: 80px;
+  /*border: 1px solid #c2c2c2;*/
+  border: none;
+}
+
+.file-caption-main {
+  width: 93%;
+}
+
+.fileinput-remove {
+  display: none;
+}
+
+.sign-set-auditor {
+  width: 93%;
+}
+
+.sign-set-auditor-wrap {
+  margin-top: 20px;
+  margin-left: 85px;
+  margin-bottom: 50px;
+}
+
+.file-caption-icon .glyphicon {
+  top: 3px;
+}
+
+.datagrid-body td {
+  color: #000;
+}
+
+.datagrid-row-selected {
+  background: rgba(0, 146, 220, 0.3);
+}
+
+.function-btn {
+  width: 50px;
+  margin: 70px auto;
+}
+
+.sign-submit, .sign-cancel {
+  width: 45px;
+}
+
+.sign-cancel {
+  display: none;
+}
+
+.sign-submit {
+  color: #fff;
+  background: #0056a9;
+  /*margin-right: 30px;*/
+}
+
+.sign-leader-name {
+  display: block;
+  margin-left: 65px;
+}
+
+.sign-span-result {
+  margin-left: 65px;
+}
+
+.sign-label-suggestion {
+  margin-left: 30px;
+}
+
+.sign-return-path {
+  margin-top: 70px;
+  margin-left: 65px;
+}
+
+.sign-input-suggestion-wrap {
+  top: 40px;
+  left: 15px;
+}
+
+.sign-record-label {
+  display: block;
+  width: 88px;
+  height: 24px;
+  color: #fff;
+  text-align: center;
+  line-height: 24px;
+  background: url(./../images/sign-lable.png);
+}
+
+.sign-history-table-wrap {
+  width: 93%;
+  margin-left: 85px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.sign-return-path-wrap {
+  display: none;
+}
+
+.fileinput-remove {
+  display: none;
+}
+
+.sign-label-dept, .sign-label-name, .sign-label-number, .sign-label-mail {
+  margin-left: 15px;
+}
+
+.sign-input-wrap {
+  display: inline-block;
+}
+
+.sign-input-code {
+  width: 295px;
+  text-transform: uppercase;
+}
+
+.sign-input-dept {
+  width: 560px;
+}
+
+.sign-input-ID {
+  width: 130px;
+  text-transform: uppercase;
+}
+
+.sign-input-name {
+  width: 130px;
+}
+
+.sign-input-number {
+  width: 130px;
+}
+
+.sign-input-mail {
+  width: 294px;
+}
+
+.sign-input-reason {
+  width: 950px;
+}
+
+.sign-input-suggestion {
+  width: 380px;
+}
+
+@media screen and (max-width: 1365px) {
+  .sign-input-wrap {
+    display: block;
+  }
+  .sign-input-code {
+    width: 85%;
+    text-transform: uppercase;
+  }
+  .sign-input-dept {
+    width: 85%;
+  }
+  .sign-input-ID {
+    width: 85%;
+    text-transform: uppercase;
+  }
+  .sign-input-name {
+    width: 85%;
+  }
+  .sign-input-number {
+    width: 85%;
+  }
+  .sign-input-mail {
+    width: 85%;
+  }
+  .sign-input-reason {
+    width: 85%;
+  }
+  .sign-input-suggestion {
+    width: 380px;
+  }
+}
+
+@media screen and (min-width:1365px) and (max-width:1580px) {
+  .sign-label-dept, .sign-label-name, .sign-label-number, .sign-label-mail {
+    margin-left: 15px;
+  }
+  .sign-input-wrap {
+    display: inline-block;
+  }
+  .sign-input-code {
+    width: 295px;
+    text-transform: uppercase;
+  }
+  .sign-input-dept {
+    width: 530px;
+  }
+  .sign-input-ID {
+    width: 130px;
+    text-transform: uppercase;
+  }
+  .sign-input-name {
+    width: 130px;
+  }
+  .sign-input-number {
+    width: 130px;
+  }
+  .sign-input-mail {
+    width: 265px;
+  }
+  .sign-input-reason {
+    width: 923px;
+  }
+  .sign-input-suggestion {
+    width: 380px;
+  }
+}
+
+@media screen and (min-width:1580px) and (max-width:1780px) {
+  .sign-label-dept, .sign-label-name, .sign-label-number, .sign-label-mail {
+    margin-left: 15px;
+  }
+  .sign-input-wrap {
+    display: inline-block;
+  }
+  .sign-input-code {
+    width: 295px;
+    text-transform: uppercase;
+  }
+  .sign-input-dept {
+    width: 740px;
+  }
+  .sign-input-ID {
+    width: 130px;
+    text-transform: uppercase;
+  }
+  .sign-input-name {
+    width: 130px;
+  }
+  .sign-input-number {
+    width: 130px;
+  }
+  .sign-input-mail {
+    width: 473px;
+  }
+  .sign-input-reason {
+    width: 1200px;
+  }
+  .sign-input-suggestion {
+    width: 800px;
+  }
+}
+
+@media screen and (min-width:1780px) and (max-width:1920px) {
+  .sign-label-dept, .sign-label-name, .sign-label-number, .sign-label-mail {
+    margin-left: 15px;
+  }
+  .sign-input-wrap {
+    display: inline-block;
+  }
+  .sign-input-code {
+    width: 295px;
+    text-transform: uppercase;
+  }
+  .sign-input-dept {
+    width: 915px;
+  }
+  .sign-input-ID {
+    width: 180px;
+    text-transform: uppercase;
+  }
+  .sign-input-name {
+    width: 180px;
+  }
+  .sign-input-number {
+    width: 180px;
+  }
+  .sign-input-mail {
+    width: 498px;
+  }
+  .sign-input-reason {
+    width: 1300px;
+  }
+  .sign-input-suggestion {
+    width: 1000px;
+  }
+}
+
+@media screen and (width: 1920px) {
+  .sign-label-dept, .sign-label-name, .sign-label-number, .sign-label-mail {
+    margin-left: 15px;
+  }
+  .sign-input-wrap {
+    display: inline-block;
+  }
+  .sign-input-code {
+    width: 295px;
+    text-transform: uppercase;
+  }
+  .sign-input-dept {
+    width: 915px;
+  }
+  .sign-input-ID {
+    width: 180px;
+    text-transform: uppercase;
+  }
+  .sign-input-name {
+    width: 180px;
+  }
+  .sign-input-number {
+    width: 180px;
+  }
+  .sign-input-mail {
+    width: 498px;
+  }
+  .sign-input-reason {
+    width: 1300px;
+  }
+  .sign-input-suggestion {
+    width: 1000px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .sign-label-dept, .sign-label-name, .sign-label-number, .sign-label-mail {
+    margin-left: 15px;
+  }
+  .sign-input-wrap {
+    display: inline-block;
+  }
+  .sign-input-code {
+    width: 295px;
+    text-transform: uppercase;
+  }
+  .sign-input-dept {
+    width: 915px;
+  }
+  .sign-input-ID {
+    width: 180px;
+    text-transform: uppercase;
+  }
+  .sign-input-name {
+    width: 180px;
+  }
+  .sign-input-number {
+    width: 180px;
+  }
+  .sign-input-mail {
+    width: 498px;
+  }
+  .sign-input-reason {
+    width: 1300px;
+  }
+  .sign-input-suggestion {
+    width: 1000px;
+  }
+}
+.system-icon{
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  top:-30px;
+  left: 0;
+  border-bottom: 1px solid #000;
+  background: url(./../images/home_page_logo.png) no-repeat left center;
+  padding-left: 70px;
+  line-height: 50px;
+  font-size: 16px;
+}

@@ -1,0 +1,390 @@
+* {margin: 0px;padding:0px; }
+html,body{
+    height: 100%;
+}
+/*去除瀏覽器默認的對input、textarea元素focus時的樣式*/
+*:focus {outline: none}
+.login-header{
+    height: 66px;
+    width: 1366px;
+    margin:0 auto;
+    color:#707070;
+    /*padding:0 50px 0 0;*/
+    background: rebeccapurple;
+    /*border: 1px solid red;*/
+    background: url(./../images/home_page_logo.png) no-repeat 10px center;
+}
+.login-tourist,.login-home{
+    padding-left: 25px;
+    line-height: 66px;
+    margin-right: 25px;
+}
+.login-tourist:hover,.login-home:hover{
+    color: #1d82d2;
+    cursor:pointer;
+}
+.login-tourist:hover{
+    background: url(./../images/login-home-hover.png) no-repeat left center;
+}
+.login-tourist{
+    background: url(./../images/login-home.png) no-repeat left center;
+}
+.login-home{
+    background: url(./../images/login-tourist.png) no-repeat left center;
+}
+.login-home:hover{
+    background: url(./../images/login-tourist-hover.png) no-repeat left center;
+}
+.login-main{
+    width: 1366px;
+    height: 552px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(./../images/login_pic.png) no-repeat 10px bottom;
+}
+.login-main h1{
+    font-size: 38px;
+    font-size: 0.38rem;
+    letter-spacing:15px;
+    color:#fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 90px;
+}
+.login-wrap{
+    min-width: 1366px;
+    background: url(./../images/login-background.png) left 66px no-repeat;
+    background-size: 100% 552px;
+}
+.login-main-content{
+    width: 320px;
+    right: 438px;
+    top:180px;
+}
+.login-main-content h3{
+    font-size: 20px;
+    font-size:0.2rem;
+    color:#e3c830;
+    line-height: 60px;
+}
+.login-main-content p{
+    color: #fff;
+    letter-spacing:1px;
+}
+.login-footer{
+    padding: 30px 0 10px 10px;
+    width: 1366px;
+    margin: 0 auto;
+}
+.login-footer p{
+    font-size: 12px;
+    font-size: 0.12rem;
+    color:#707070;
+    line-height: 20px;
+}
+.register-main-wrap{
+    width: 100%;
+    height: 100%;
+    background: url(./../images/login-background.png) no-repeat left 66px;
+    background-size: cover;
+}
+
+/*body {background: url(../images/bg.jpg) no-repeat }*/
+.container {
+    -webkit-transition: -webkit-transform .8s;
+    transition: transform .8s;
+    -webkit-transition-timing-function: cubic-bezier(.68,-.55,.265,1.55);
+    transition-timing-function: cubic-bezier(.68,-.55,.265,1.55);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+/*設置登入界面的樣式*/
+.login-container {
+    background-color: #ffffff;
+    width:305px;
+    height:330px;
+    border:8px solid #6490b6;
+    position:absolute;
+    z-index:9999;
+    border-radius: 4px;
+    top: 140px;
+    right: 61px;
+    /*!*visibility:hidden;*!*/
+    transform: rotateX(360deg);
+    -webkit-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);		/* IE 9 */
+    -o-transform: rotateX(360deg);		/* Opera */
+    -moz-transform: rotateX(360deg);
+
+}
+
+.login-container .top {
+    cursor: move;
+    user-select: none;
+    width:305px;
+    height:40px;
+    line-height: 40px;
+    display:block;
+    text-align: center;
+    /*border:1px solid #000203;*/
+    padding:20px 0px;}
+
+.login-container .top  h3 {color: #333;font-family: "Microsoft YaHei", sans-serif;font-size:24px;text-align: center;}
+
+.login-container .login-text {
+    position:absolute;
+    width:305px;
+    /*border:1px solid #000000;*/
+    top:100px;
+}
+
+.login-container .login-text .errorTip {
+    position:absolute;
+    /*border: 1px solid #000203;*/
+    color:#f03838;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    left:20px;
+    top:-24px;
+    /*z-index: 1px;*/
+}
+/*設置輸入框頭部的小圖標*/
+.login-container .login-text .input_label {
+    display:block;
+    width:20px;
+    height:20px;
+    position:absolute;
+    left:30px;
+    background-image: url(../images/ico.png);
+    background-repeat: no-repeat;
+}
+/*定位用戶小圖標及其在用戶名的輸入框中的位置*/
+.login-container .login-text .input_label_yh {
+    background-position: 0px 0px;
+    position:absolute;
+    top:10px; }
+/*定位密碼鎖小圖標及其在密碼輸入框的位置*/
+.login-container .login-text .input_label_mm {
+    background-position: 0px -20px;
+    position:absolute;
+    top:62px;}
+/*設置input的樣式*/
+.login-container .login-text .input_box{
+    border: 1px solid;
+    font-size: 1em;
+    height: 40px;
+    line-height:40px;
+    padding-left:30px;
+    margin:0px 20px 0px 20px;
+    transition: background 0.3s ease-in-out;
+    width: 233px;
+    /*float:center;*/
+}
+/*設置用戶名輸入框樣式*/
+.login-container .login-text .input_yh {
+    margin-bottom: 10px;
+    border-color: #dddddd #dddddd #dddddd #dddddd;
+    border-radius:4px;
+}
+/*設置密碼框樣式*/
+.login-container .login-text .input_mm {
+    margin-top:0px ;
+    border-color: #dddddd #dddddd #dddddd #dddddd;
+    border-radius:4px;}
+
+/*設置登入按鈕的樣式*/
+.button{
+    -webkit-appearance: none;   /* safari和chrome瀏覽器支持該屬性 -webkit為前綴*/
+    background:#2875ff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out;
+    width: 265px;
+    padding:0px 50px 0px 50px;
+    font-weight: bold;
+    margin:0px 20px 12px 20px;
+
+}
+
+.button:hover {background: #246DB0;}
+/*鍵入光標聚焦時邊框的樣式改變*/
+.login-container .login-text input:focus {
+    outline: none;
+    border-color: #2875ff;
+    box-shadow: 0 0 0px #2875ff;
+}
+/*下次登入的樣式設置*/
+.login-container .login-text .check_box {
+    width: 12px;
+    height:12px;
+    margin:10px 6px 18px 20px;
+    color:#666666;
+
+}
+.login-container .login-text label {
+    font-size: 12px;
+    font-family: "Microsoft YaHei", sans-serif;
+    text-align: center;
+    color: #6d6d6d;
+}
+
+.login-container .login-text .for-pwd {
+    font-size: 14px;
+    color: #666666;
+    font-family: "Microsoft YaHei", sans-serif;
+    margin-right:20px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+.login-container .login-text .for-sign {
+    font-size: 14px;
+    color: #666666;
+    /*border: 1px solid #000203;*/
+    font-family: "Microsoft YaHei", sans-serif;
+    margin-right:22px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.login-container .login-text a:hover {
+    color:#2875ff;
+}
+.login-container .login-text .clear_btn {
+
+    background:url(../images/ico.png) no-repeat;
+    /*display:block;*/
+    position:absolute;
+    right:30px;
+    visibility: visible;
+    width:20px;
+    height:20px;
+    background-position:0 -40px;
+    cursor:pointer;
+}
+/*註冊界面樣式*/
+.sign-container {
+    position:absolute;
+    /*width:auto;*/
+    width:366px;
+    height:470px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    visibility: hidden;
+
+}
+
+.sign-container .msg {
+    float:left;
+    line-height: 20px;
+    position:absolute;
+    width:220px;
+    right:-185px;
+    z-index:99;
+    color:#f03838;
+    font-size: 12px;
+    display:inline-block;
+    visibility: visible;
+}
+
+.sign-container .okTip {
+
+    width: 20px;
+    height:20px;
+    background-position: -40px -20px;
+    top:175px;
+}
+
+ i {
+     float:left;
+     line-height: 20px;
+    background:url(../images/ico.png) no-repeat;
+     width:20px;
+     height:20px;
+}
+
+.sign-container .strength {
+    /*border: 1px solid #dddddd;*/
+    left:58px;
+    top:170px;
+    position:absolute;
+    width:264px;
+    line-height: 16px;
+    /*font-size: 12px;*/
+    /*display:none;*/
+    visibility: hidden;
+}
+.sign-container .strength span {
+    float:left;
+    display:block;
+    width:28px;
+    height:8px;
+    border: 1px solid #dddddd;
+    border-right: transparent;
+}
+.sign-container .strength #enough-one {border-top-left-radius: 4px;border-bottom-left-radius: 4px;}
+.sign-container .strength #strong-three {border-right: 1px solid #dddddd;border-top-right-radius: 4px;border-bottom-right-radius: 4px;}
+
+
+.sign-container .errorTip {
+    width: 20px;
+    height:20px;
+    background-position: -40px 0px;
+    top:175px;
+    margin:0;
+}
+
+.sign-container .employ_msg {
+    /*border: 1px solid #dddddd;*/
+    height:14px;
+    width:264px;
+    position:absolute;
+    left:38px;
+    font-size: 14px;
+    float:left;
+    color:#999999;
+}
+
+.sign-container .sign-top {width:366px;height:40px;padding:40px 0px;}
+
+.sign-container .sign-top h3 {color: #333333;font-family: "Microsoft YaHei", sans-serif;font-size:24px;text-align: center;line-height:40px;}
+.sign-container .sign-text .sign-title {font-size:18px;font-color:#333333;display:block;text-align:center;font-weight:bold;margin-top:20px;font-family: "Microsoft YaHei", sans-serif;}
+/*同時設置註冊界面label和input上邊距及左邊距為20px,右邊距及下邊距為0px*/
+.sign-container .sign-text .sign-label-input {float:left;font-family: "Microsoft YaHei", sans-serif;margin:20px 0px 0px 20px;font-size: 14px;}
+.sign-container .sign-text .sign_label {float:left;color:#333333;line-height:38px}
+
+.sign-container .sign-text .sign_input {transition: all 1s ease;color:#999999;width:254px;height:38px;line-height:38px;margin-left: 10px;padding-left:10px;border-radius:4px;border:1px solid #dddddd;}
+
+.sign-container .sign-text input:focus {border-color: #2875ff;box-shadow: 0 0 0 #2875ff;}
+.sign-container .sign-text .sign_label_pwd_check{width:28px;height:28px;line-height:1;margin-top:30px;}
+.sign-container .sign-text .sign_input_pwd_check{margin-top:28px;}
+.sign-container .sign-text .sign_label_email {margin-top:28px;}
+.sign-container .sign-text .sign_email {margin-top:28px;}
+.sign-container .sign-text .sign_box {margin-top:20px;margin-left:38px;width:264px;}
+.sign-container .sign-text .sign-foot {font-size:14px;font-family: "Microsoft YaHei", sans-serif;margin:16px 44px 20px 0;color:#666666;}
+.sign-container .sign-text .sign-foot a {text-decoration: none;color:#1d82d2;}
+/*.sign-container .sign-text .sign-foot a:hover {}*/
+/* 設置輸入框中叉叉的樣式*/
+.sign-container .sign-text .clear_btn {
+    background:url(../images/ico.png) no-repeat;
+    /*display:block;*/
+    position:absolute;
+    right:48px;
+    visibility: visible;
+    width:20px;
+    height:20px;
+    background-position:0 -40px;
+    cursor:pointer;
+}

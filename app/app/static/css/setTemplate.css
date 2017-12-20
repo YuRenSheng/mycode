@@ -1,0 +1,78 @@
+.set-template-wrap{
+  padding: 30px;
+  background: #f2f2f2;
+}
+.set-template-query{
+  padding-bottom: 30px;
+}
+.set-template-query h3{
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding-left: 10px;
+  background: url(./../images/slip.png) no-repeat 0 5px;
+}
+.set-template-blue-line{
+  display: inline-block;
+  width:4px;
+  height: 20px;
+  border-radius: 2px;
+  background: #1d82d2;
+  margin-top: 5px;
+}
+.set-template-item{
+  display: inline-block;
+  width: 240px;
+  height: 180px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.set-template-item:hover{
+  box-shadow: 0 0 8px 3px rgba(0,0,0,0.1);
+}
+.set-template-item-top{
+  height: 130px;
+  background: url(./../images/set-template-item-icon.png) no-repeat center 35px;
+  border-bottom: 1px solid #ddd;
+}
+.set-template-item-name{
+  line-height: 180px;
+  text-align: center;
+  font-size: 14px;
+  font-size: 0.14rem;
+  color: #333;
+}
+.set-template-item-create-time{
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  font-size: 0.14rem;
+  color: #333;
+}
+.set-template-item-hover{
+  display: none;
+  width: 240px;
+  height: 180px;
+  background: #fff;
+  top: 0;
+  left: 0;
+  padding-top: 40px;
+}
+.set-template-item-edit,.set-template-item-delete{
+  display: block;
+  width: 140px;
+  height: 40px;
+  margin: 0 auto;
+  font-weight: 500;
+  color: #1d82d2;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #1d82d2;
+  cursor: pointer;
+}
+.set-template-item-edit{
+  margin-bottom: 15px;
+}

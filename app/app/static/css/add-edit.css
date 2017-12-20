@@ -1,0 +1,172 @@
+/** {margin:0px;padding:0px;}*/
+*:focus {outline: none}
+
+.mask {
+    position: absolute;
+    top:0;
+    left:0;
+    filter: alpha(opacity=60);
+    background-color: #000;
+    z-index: 999;
+    opacity:0.5; -moz-opacity:0.5;
+}
+.add-edit-box {
+    width:398px;
+    height:265px;
+    border:1px solid #ddd;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    position: relative;
+    z-index:1002;
+}
+.delete-box {
+    width:398px;
+    height:201px;
+    border:1px solid #ddd;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    position: relative;
+    visibility: visible;
+    z-index:1002;
+}
+.bigtip{
+    font-size:14px;
+    color:#333333;
+    display:block;
+    margin-top:40px;
+    margin-left:96px;
+}
+.smalltip{
+    font-size: 12px;
+    color:#999999;
+    display:block;
+    margin-left:96px;
+    margin-bottom: 20px;
+}
+.warning {
+    position:absolute;
+    top:80px;
+    left:60px;
+}
+.edit-box {
+    position:relative;
+    width:398px;
+    height:265px;
+    border:1px solid #ddd;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    z-index:1002;
+}
+.close-box {
+    height:40px;
+    border-bottom:1px solid #dddddd;
+    line-height: 40px;
+    position:relative;
+}
+.head-info{
+   position:absolute;
+    left:20px;
+    color:#333333;
+}
+.close-img {
+    background-position: -60px 0px;
+    position: absolute;
+    left:360px;
+    top:10px;
+    cursor: pointer;
+}
+
+.organ {
+    border-radius: 4px;
+    position:relative;
+    left:50px;
+}
+.organ-input {
+    border:1px solid #dddddd;
+    font-size: 14px;
+    padding-left:10px;
+}
+#org-code {
+    margin-top: 10px;
+}
+#edit-org-code {
+    margin-top: 10px;
+}
+.organ-input {
+    margin:40px 40px 10px 10px ;
+    width:220px;
+    height:40px;
+}
+
+.add-button {
+    width:120px;
+    height:36px;
+    margin-left:60px;
+    border-radius: 4px;
+    border:none;
+    display:inline-block;
+    background-color: #1d82d2;
+    color:#ffffff;
+    cursor: pointer;
+}
+
+.cancel-button {
+    width:120px;
+    height:36px;
+    margin-top:10px;
+    margin-left:20px;
+    border-radius: 4px;
+    border:none;
+    cursor: pointer;
+}
+
+.clear_btn  {
+    background:url(../images/ico.png) no-repeat;
+    position:absolute;
+    right:78px;
+    visibility: visible;
+    width:20px;
+    height:20px;
+    background-position:0 -40px;
+    cursor:pointer;
+}
+
+.msg {
+    float:left;
+    line-height: 20px;
+    position:absolute;
+    width:220px;
+    right:-150px;
+    z-index:99;
+    color:#f03838;
+    font-size: 12px;
+    display:inline-block;
+    visibility: visible;
+}
+
+ .okTip {
+
+    width: 20px;
+    height:20px;
+    background-position: -40px -20px;
+    top:175px;
+}
+
+.clear_btn i {
+    float:left;
+    line-height: 20px;
+    background:url(../images/ico.png) no-repeat;
+    width:20px;
+    height:20px;
+}
+
+.errorTip {
+    width: 20px;
+    height:20px;
+    background-position: -40px 0px;
+    top:175px;
+    margin:0;
+}

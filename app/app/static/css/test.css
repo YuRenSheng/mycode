@@ -1,0 +1,225 @@
+* {margin: 0px;padding:0px; }
+li { list-style:none;
+}
+a {text-decoration: none;}
+body {min-height: 100%;}
+#wrap {
+    width:100%;
+    margin:0 auto;
+    background-color: #D3D3D3;
+    /*min-height:100%;*/
+    position: fixed;
+    height:100%;
+}
+.navbar-brand {
+    float:left;
+    position:relative;
+    background-color: #061e35;
+    width:160px;
+    min-height:100%;
+    z-index:999;
+}
+.mini-brand {
+    float:left;
+    background-color: #061e35;
+    width:60px;
+}
+ .img-logo {
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+}
+ .img-logo  .logo {
+    vertical-align:middle;  /*图片居中*/
+}
+ .sprite {
+    display:inline-block;
+    background: url(../images/2.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+}
+ .sprite-menu {
+     position:relative;
+     left:20px;
+ }
+ .sidebar-collapse {
+    background-position: -20px -80px;
+    margin-left: 20px;
+    margin-top: 28px;
+}
+.img-sidebar {
+    position:absolute;
+    bottom: 0;
+
+}
+ .menu {
+    margin-top:30px;
+}
+ .menu .active {
+    margin-top:26px;
+}
+.menu .menu-text {
+    position:absolute;
+    left:60px;
+}
+.sub {
+    position:absolute;
+    left:60px;
+}
+ .menu .skech {
+    background-position: -40px -80px;
+}
+ .menu .distribution{
+    background-position: -60px -80px;
+}
+ .menu #framework-img{
+    background-position: -80px -80px;
+}
+.menu .skech-draw-left{
+    background-position: -200px 0px;
+    position:absolute;
+    left:130px;
+}
+ .menu .framework-draw-left{
+    background-position: -200px 0px;
+    position:absolute;
+    left:130px;
+}
+.navbar-brand .menu .draw-down{
+    background-position: -100px 0px;
+}
+ .menu .menu-text {
+     font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+
+    color:#ffffff;
+    font-size: 14px;
+}
+
+#section {
+    width:100%;
+    /*float:left;*/
+    background-color: #f2f2f2;
+    /*height:100%;*/
+}
+#top-bar {
+    height:50px;
+    background-color:#ffffff;
+    border:1px solid #ddd;
+    /*margin-left: 160px;*/
+
+}
+#top-bar #photo {
+    position:relative;
+    top:11px;
+    margin-left: 40px;
+
+
+}
+#top-bar .menu-left {
+    position:relative;
+    left:30px;
+    line-height: 50px;
+}
+#top-bar .menu-right {
+    float:right;
+    position:relative;
+    right:20px;
+    top:-50px;
+}
+#top-bar .menu-right .line {
+    /*clear:both;*/
+    position:absolute;
+    top:20px;
+    right:128px;
+    height:12px;
+    border-left-style:solid;
+    border-bottom-style:none;
+    border-right-style:none;
+    border-top-style:none;
+    border-color:#ddd;
+}
+#top-bar .name {
+    font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    color:#333333;
+    margin-left:10px;
+    line-height: 50px;
+}
+#top-bar .homepage {
+    position:relative;
+    top:4px;
+    background-position: 0px -80px;
+}
+#top-bar .inform{
+    position:relative;
+    top:15px;
+    background-position: -80px 0px;
+}
+#top-bar .draw-right {
+    position:relative;
+    top:4px;
+    background-position: -220px 0px;
+}
+#top-bar .draw-down{
+    position:relative;
+    top:4px;
+    background-position: -100px 0px;
+}
+.sub {
+    position:relative;
+    top:-30px;
+    width:100px;
+    font-size: 14px;
+    background-color:#061e35 ;
+    margin:0 auto;
+    text-align: center;
+    opacity:0;
+    /*left:0px;*/
+}
+
+.sub-menu-text {
+    color:#fff;
+    height:30px;
+    line-height:30px;
+    font-size: 14px;
+}
+.photo-draw {
+    width:106px;
+    height:64px;
+    position:relative;
+    right:-20px;
+    margin:0 auto;
+    text-align: center;
+    background-color: #fff;
+    opacity: 0;
+    border:1px solid #ddd;
+    z-index:999;
+}
+#top-bar .set {
+    position:relative;
+    top:4px;
+    background-position: -260px 0px;
+}
+#top-bar .exit {
+    position:relative;
+    top:4px;
+    background-position: -280px 0px;
+    margin-top: 10px;
+}
+
+.photo-sub-text {
+    font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    color:#333333;
+    margin-left: 10px;
+}
+
+.toolbar {
+    positive:relative;
+    height:80px;
+    border:1px solid #dd3a34;
+
+}
+
+

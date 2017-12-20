@@ -1,0 +1,97 @@
+.datagrid-header-row {
+    color: #0056a9;
+}
+.status-styles-examine{
+    color: #0f0f0f;
+}
+.panel datagrid{
+    position: relative;
+}
+.datagrid-wrap{
+    margin-top: 12px;
+} /*panel-body panel-body-noheader*/
+.task-bluebar {
+    height: 14px;
+    width: 2px;
+    float: left;
+    margin-top: 30px
+}
+
+.task-todoTable{
+    padding-top: 70px;
+    display: block;
+}
+
+.task-button-position {
+    float: right;
+    /*width: 600px;*/
+    height: 40px;
+    display: block;
+}
+
+.blue-task-button{
+    color:#1d82d2!important;
+    border-color: #1d82d2!important;
+}
+
+/*
+.gurey-task-button{
+    color: #8f95a1!important;
+    border-color: #8f95a1!important;
+}
+*/
+
+
+.task-button {
+    float: left;
+    height: 26px;
+    border-radius: 4px;
+    width: 80px;
+    background: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid 1px;
+    border-color: #8f95a1;
+    color: #8f95a1;
+    font-size: 10px;
+}
+
+.task-noMassage{
+    background: #FFFFFF;
+    display: block;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 51;
+    margin-top: 50px
+}
+
+.task-noMassage-image{
+    background: url(./../images/taskTodo_nomassage.png) no-repeat  520px 100px;
+    display: block;
+    position:absolute;
+    width: 1164px;
+    height: 600px;
+    z-index: 51;
+    margin-top: 50px
+}
+
+.reflsh-task-button {
+    margin-top: 10px;
+    /*float: right;*/
+    background: #1d82d2;
+    border-color: #1d82d2;
+    border-radius: 4px;
+    color: white;
+    height: 25px;
+    width: 100px;
+    margin-left: 20px;
+    display:inline-block;
+}
+
+.task-list {
+    margin-left: 10px;
+    font-size: 15px;
+    height: 30px;
+    padding-top: 30px
+}

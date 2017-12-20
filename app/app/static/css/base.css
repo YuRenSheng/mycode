@@ -1,0 +1,248 @@
+/*html, body {*/
+/*margin:0;*/
+/*padding:0;*/
+/*font-family: "Lucida Grande", Verdana;*/
+/*font-size: 0.9em;*/
+/*text-align: center;*/
+/*background-color:#F2F2F2;*/
+/*}*/
+
+
+/*input, select {*/
+/*font-size:0.9em;*/
+/*}*/
+.toolbar table {
+    position:absolute;
+    right:10px;
+    /*width:106px;*/
+    height:20px;
+    border-collapse:collapse;
+
+}
+.toolbar table td {
+    padding:10px;
+    border-style: none;
+    cursor: pointer;
+}
+.left-sprite {
+    display:inline-block;
+    background: url(../images/2.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+}
+.sprit {
+    display:inline-block;
+    background: url(../images/2.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+}
+
+.lock:hover{
+    display:inline-block;
+    background: url(../images/3.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+    background-position: -60px -60px;
+}
+.unlock:hover{
+    display:inline-block;
+    background: url(../images/3.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+    background-position: -80px -60px;
+}
+.editsprite-1 {
+    display:inline-block;
+    background: url(../images/1.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+}
+.editsprite-2 {
+    display:inline-block;
+    background: url(../images/2.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+}
+.editsprite-2:hover {
+    display:inline-block;
+    background: url(../images/3.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+    background-position: -120px -80px;
+}
+.addsprite-1 {
+    display:inline-block;
+    background: url(../images/1.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+}
+.addsprite-2 {
+    display:inline-block;
+    background: url(../images/2.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+}
+.addsprite-2:hover {
+    /*display:inline-block;*/
+    background: url(../images/3.png);
+    background-position: -140px -80px;
+}
+
+
+.deletesprite-1 {
+    display:inline-block;
+    background: url(../images/1.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+}
+.deletesprite-2 {
+    display:inline-block;
+    background: url(../images/2.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+}
+.deletesprite-2:hover {
+    display:inline-block;
+    background: url(../images/3.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+    background-position: -100px -60px;
+}
+
+.left-right {
+    background-position: -100px -80px;
+    animation: rotatete 0.3s linear forwards;
+}
+.left-right:hover {
+    display:inline-block;
+    background: url(../images/3.png);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+    background-position: -100px -80px;
+}
+.right-left {
+    animation: rotatete2 0.3s linear forwards;
+}
+
+@keyframes rotatete{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+@keyframes rotatete2{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(450deg);}
+}
+.not-show-code {
+    background-position: -180px -80px;
+}
+.show-code {
+    background-position: -160px -80px;
+}
+.lock{
+    background-position: -60px -60px;
+}
+.unlock{
+    background-position: -80px -60px;
+}
+.edit {
+    background-position: -120px -80px;
+
+}
+.add {
+    background-position: -140px -80px;
+
+}
+.delete {
+    background-position: -100px -60px;
+}
+.man_total {
+    background-position: -240px -80px;
+
+}
+.man_percent {
+    background-position: 0px -100px;
+}
+.man_newin {
+    background-position: -40px -100px;
+}
+.man_out {
+    background-position: -80px -100px;
+}
+.more {
+    background-position: -240px -60px;
+}
+h4 {
+    font-size:1.1em;
+    text-decoration:none;
+    font-weight:normal;
+    color:#23A4FF;
+}
+
+a {
+    color:#23A4FF;
+}
+.content {
+    padding:10px;
+    font-family: "Microsoft YaHei", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 0.9em;
+    /*text-align: center;*/
+    background-color:#F2F2F2;
+    display:inline-block ;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.content-overflow{
+    overflow: auto;
+    overflow-x: hidden;
+}
+#center-container {
+    width:100%;
+    height:100%;
+    margin-top: 50px;
+    /*left:180px;*/
+    background-color: #fff;
+    color:#ccc;
+}
+
+#inner-details {
+    font-size:0.8em;
+    list-style:none;
+    margin:7px;
+}
+
+#log {
+    position:absolute;
+    top:10px;
+    font-size:1.0em;
+    font-weight:bold;
+    color:#23A4FF;
+}
+
+#infovis {
+    position:relative;
+    width:100%;
+    height:100%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.f12 {
+    font-size: 12px;
+    /*color:#666666;*/
+    line-height: 14px;
+    /*padding: 10px;*/
+}

@@ -1,0 +1,459 @@
+.new-application-delete-document{
+  top: 30px;
+  right: 30px;
+  display: none;
+  width: 20px;
+  height: 20px;
+  background: url(./../images/deleteDocument.png);
+  cursor: pointer;
+}
+.new-application-wrap{
+  width: 100%;
+  padding: 30px 30px 70px 30px;
+  background-color: #f2f2f2;
+  /*user-select: all;*/
+}
+.new-application-wrap h1{
+  text-align: center;
+  font-weight: bold;
+}
+.slip{
+  display: inline-block;
+  width: 4px;
+  height: 16px;
+  background: url(./../images/slip.png);
+}
+.new-application-title h4{
+  font-weight: 600;
+  display: inline-block;
+  color: #333;
+}
+.new-application-line{
+  display: inline-block;
+  width: 93%;
+  height: 2px;
+  background: url(./../images/line.png);
+}
+.new-application-applicant-information{
+  padding-left: 7px;
+  color: #333;
+}
+.new-application-applicant-information h5{
+  margin-top: 15px;
+  display: inline-block;
+  font-weight: bold;
+}
+.new-application-input,.new-application-label{
+  display: inline-block;
+  margin-top: 15px;
+}
+.new-application-label,.new-application-label-code,.new-application-label-ID,.new-application-label-theme{
+  margin-top: 15px;
+  width: 70px;
+}
+.new-application-label{
+  margin-left: 15px;
+}
+.tips{
+  display: block;
+  color: red;
+  margin-left: 78px;
+}
+.new-application-data{
+  padding-top: 20px;
+}
+.new-application-document-type h5{
+  margin-right: 20px;
+}
+.file-loading{
+  display: inline-block;
+  width: 90%;
+  margin-left: 20px;
+  padding-top: 18px;
+}
+.new-application-editor{
+  width: 93%;
+  margin-top: 20px;
+  margin-left: 20px;
+  /*left: 15px;*/
+  background-color: #fff;
+  z-index: 0;
+}
+.new-application-editor h1{
+  font-size: 36px;
+}
+.new-application-editor h2{
+  font-size: 28px;
+}
+.new-application-editor h3{
+  font-size: 24px;
+}
+.new-application-editor h4{
+  font-size: 18px;
+}
+.new-application-editor h5{
+  font-size: 14px;
+}
+.new-application-upload-title{
+  font-weight: 700;
+  color:#0056a9;
+  display: inline-block;
+}
+.glyphicon{
+  font-size: 16px;
+  top: 10px;
+}
+.btn-outline-secondary .glyphicon{
+  top:-28px;
+}
+.fileinput-remove-button .glyphicon, .fileinput-upload-button .glyphicon, .btn-file .glyphicon{
+  top: 3px;
+}
+.new-application-auditor h5{
+  margin-top: 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.file-preview{
+  border: none;
+  padding: 0;
+}
+.file-drop-zone{
+  width: 93%;
+  margin: 0;
+}
+.file-input{
+  width: 100%;
+  position: relative;
+  top: -20px;
+  left: 80px;
+}
+.file-input-ajax-new{
+  position: relative;
+  width: 100%;
+  top: -20px;
+  left: 80px;
+  border:none;
+}
+.file-caption-main{
+  width: 93%;
+}
+.fileinput-remove{
+  display: none;
+}
+.new-application-set-auditor-wrap{
+  margin-top: 20px;
+  /*margin-left: 85px;*/
+  margin-bottom: 50px;
+}
+.file-caption-icon .glyphicon{
+  top: 3px;
+}
+label.new-application-label-select{
+  font-weight: 500;
+}
+.new-application-save-template,.new-application-save-template:hover{
+  width: 120px;
+  height: 30px;
+  text-align: right;
+  padding-right: 5px;
+  color: #1d82d2;
+  border: 1px solid #1d82d2;
+  background: url(./../images/add_template.png) no-repeat 5px center #f2f2f2;
+}
+.new-application-template-modal{
+  background: #fff;
+}
+.new-application-save-template .l-btn-text,.new-application-save-template .l-btn-text:hover{
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.new-application-template-detail-query,.new-application-template-detail-query:hover{
+  width: 50px;
+  height: 26px;
+  text-align: center;
+  color: #fff;
+  border: none;
+  background: #1d82d2;
+  margin-left: 10px;
+}
+.new-application-template-detail-query .l-btn-text,.new-application-template-detail-query .l-btn-text:hover{
+  font-size: 14px;
+  line-height: 26px;
+}
+
+
+.datagrid-body td{
+  color:#000;
+}
+.datagrid-row-selected{
+  background: rgba(0,146,220,0.3);
+}
+.table-icon{
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-top: 3px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.up{
+  background: url(./../images/up.png) no-repeat;
+}
+.down{
+  background: url(./../images/down.png) no-repeat;
+}
+.add{
+  background: url(./../images/add.png) no-repeat;
+}
+.deleteOne{
+  background: url(./../images/delete.png) no-repeat;
+}
+.function-btn{
+  width: 130px;
+  margin: 0 auto;
+}
+.submit,.keep,.cancel{
+  width: 45px;
+}
+.cancel{
+  display: none;
+}
+.submit{
+  color: #fff;
+  background: #0056a9;
+  margin-right: 30px;
+}
+.new-application-input{
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+}
+.new-application-save-template:focus,.new-application-save-template:hover{
+  color: #1d82d2;
+}
+.new-application-template-detail-query:focus,.new-application-template-detail-query:hover{
+  color: #fff;
+}
+.datagrid-editable-input,.datagrid-cell-c1-ID{
+  text-transform:uppercase;
+}
+.new-application-input-theme{
+  width: 1020px;
+  height: 25px;
+}
+
+.new-application-line{
+  width: 90%;
+}
+.new-application-input-wrap{
+  display: inline-block;
+}
+.new-application-input-theme{
+  width: 1020px;
+}
+.new-application-input-code{
+  width: 160px;
+  text-transform:uppercase;
+}
+.new-application-input-dept{
+  width: 780px;
+}
+.new-application-input-ID{
+  width: 160px;
+  text-transform:uppercase;
+}
+.new-application-input-name{
+  width: 160px;
+}
+.new-application-input-number{
+  width: 160px;
+}
+.new-application-input-mail{
+  width: 305px;
+}
+
+@media screen and (max-width: 1365px){
+  .new-application-line{
+    width: 90%;
+  }
+  .new-application-input-wrap{
+    display: block;
+  }
+  .new-application-input-theme{
+    width: 90%;
+  }
+  .new-application-label{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .new-application-label-code{
+    margin-right: 0;
+  }
+  .new-application-label-ID{
+    margin-right: 0;
+  }
+  .new-application-input-code{
+    width: 90%;
+    text-transform:uppercase;
+  }
+  .new-application-input-dept{
+    width: 90%;
+  }
+  .new-application-input-ID{
+    width: 90%;
+    text-transform:uppercase;
+  }
+  .new-application-input-name{
+    width: 90%;
+  }
+  .new-application-input-number{
+    width: 90%;
+  }
+  .new-application-input-mail{
+    width: 90%;
+  }
+}
+@media screen and (min-width:1365px) and (max-width:1680px){
+  .new-application-input-wrap{
+    display: inline-block;
+  }
+  .new-application-input-theme{
+    width: 85%;
+  }
+  .new-application-input-code{
+    width: 295px;
+    text-transform:uppercase;
+  }
+  .new-application-input-dept{
+    width: 640px;
+  }
+  .new-application-input-ID{
+    width: 150px;
+    text-transform:uppercase;
+  }
+  .new-application-input-name{
+    width: 150px;
+  }
+  .new-application-input-number{
+    width: 150px;
+  }
+  .new-application-input-mail{
+    width: 300px;
+  }
+}
+@media screen and (min-width: 1680px) and (max-width: 1800px){
+  .new-application-input-wrap{
+    display: inline-block;
+  }
+  .new-application-input-theme{
+    width: 90%;
+  }
+  .new-application-input-code{
+    width: 295px;
+    text-transform:uppercase;
+  }
+  .new-application-input-dept{
+    width: 915px;
+  }
+  .new-application-input-ID{
+    width: 150px;
+    text-transform:uppercase;
+  }
+  .new-application-input-name{
+    width: 150px;
+  }
+  .new-application-input-number{
+    width: 150px;
+  }
+  .new-application-input-mail{
+    width: 575px;
+  }
+}
+@media screen and (min-width: 1800px) and (max-width: 1920px){
+  .new-application-input-wrap{
+    display: inline-block;
+  }
+  .new-application-input-theme{
+    width: 90%;
+  }
+  .new-application-input-code{
+    width: 295px;
+    text-transform:uppercase;
+  }
+  .new-application-input-dept{
+    width: 1000px;
+  }
+  .new-application-input-ID{
+    width: 150px;
+    text-transform:uppercase;
+  }
+  .new-application-input-name{
+    width: 150px;
+  }
+  .new-application-input-number{
+    width: 150px;
+  }
+  .new-application-input-mail{
+    width: 660px;
+  }
+}
+@media screen and (width: 1920px) {
+  .new-application-input-wrap{
+    display: inline-block;
+  }
+  .new-application-input-theme{
+    width: 1570px;
+  }
+  .new-application-input-code{
+    width: 295px;
+    text-transform:uppercase;
+  }
+  .new-application-input-dept{
+    width: 1185px;
+  }
+  .new-application-input-ID{
+    width: 295px;
+    text-transform:uppercase;
+  }
+  .new-application-input-name{
+    width: 295px;
+  }
+  .new-application-input-number{
+    width: 295px;
+  }
+  .new-application-input-mail{
+    width: 410px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .new-application-input-wrap{
+    display: inline-block;
+  }
+  .new-application-input-theme{
+    width: 1570px;
+  }
+  .new-application-input-code{
+    width: 295px;
+    text-transform:uppercase;
+  }
+  .new-application-input-dept{
+    width: 1185px;
+  }
+  .new-application-input-ID{
+    width: 295px;
+    text-transform:uppercase;
+  }
+  .new-application-input-name{
+    width: 295px;
+  }
+  .new-application-input-number{
+    width: 295px;
+  }
+  .new-application-input-mail{
+    width: 410px;
+  }
+}
+

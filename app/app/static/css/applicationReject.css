@@ -1,0 +1,472 @@
+ .application-reject-wrap{
+  width: 100%;
+  padding: 30px 30px 40px 30px;
+  background-color: #f2f2f2;
+  /*border: 1px solid red;*/
+}
+.application-reject-wrap h1{
+  text-align: center;
+  font-weight: bold;
+}
+.slip{
+  display: inline-block;
+  width: 4px;
+  height: 16px;
+  background: url(./../images/slip.png);
+}
+.application-reject-title h4{
+  font-weight: 600;
+  display: inline-block;
+  color: #333;
+  margin-bottom: 20px;
+}
+.application-reject-document-NO{
+  margin-right:20px;
+  margin-left: 7px;
+}
+.application-reject-line{
+  display: inline-block;
+  width: 91%;
+  height: 2px;
+  background: url(./../images/line.png);
+}
+.file-loading{
+  display: inline-block;
+  width: 90%;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.application-reject-history-wrap{
+  display: none;
+}
+.application-reject-applicant-information{
+  padding-left: 7px;
+  color: #333;
+}
+.application-reject-applicant-information h5{
+  margin-top: 15px;
+  display: inline-block;
+  font-weight: bold;
+}
+.application-reject-input,.application-reject-label{
+  display: inline-block;
+  margin-top: 15px;
+}
+.application-reject-label-code,.application-reject-label-ID,.application-reject-label-theme{
+  margin-top: 15px;
+}
+.application-reject-label-dept,.application-reject-label-name,.application-reject-label-number,.application-reject-label-mail{
+  margin-left: 15px;
+}
+.tips{
+  display: block;
+  color: red;
+  margin-left: 78px;
+}
+.application-reject-data{
+  padding-top: 20px;
+}
+.application-reject-document-type h5{
+  margin-right: 20px;
+}
+.application-reject-editor-content{
+  display: inline-block;
+  background: #fff;
+  width: 1010px;
+  height: 100px;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.application-reject-editor{
+  width: 92%;
+  /*top: -20px;*/
+  /*left: 80px;*/
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  z-index: 0;
+}
+.application-reject-editor h1{
+  font-size: 36px;
+}
+.application-reject-editor h2{
+  font-size: 28px;
+}
+.application-reject-editor h3{
+  font-size: 24px;
+}
+.application-reject-editor h4{
+  font-size: 18px;
+}
+.application-reject-editor h5{
+  font-size: 14px;
+}
+.application-reject-upload-title{
+  font-weight: 700;
+  color:#0056a9;
+  display: inline-block;
+}
+.glyphicon{
+  font-size: 16px;
+  top: 10px;
+}
+.btn-outline-secondary .glyphicon{
+  top:-28px;
+}
+.fileinput-remove-button .glyphicon, .fileinput-upload-button .glyphicon, .btn-file .glyphicon{
+  top: 3px;
+}
+.application-reject-auditor h5{
+  margin-top: 15px;
+  display: inline-block;
+  font-weight: 600;
+}
+.file-preview{
+  border: none;
+  padding: 0;
+}
+.file-drop-zone{
+  width: 100%;
+  margin: 0;
+}
+.file-input{
+  width: 100%;
+  position: relative;
+  top: -20px;
+  left: 80px;
+}
+.file-input-ajax-new{
+  position: relative;
+  width: 93%;
+  top: -20px;
+  left: 80px;
+  /*border: 1px solid #c2c2c2;*/
+  border:none;
+}
+.file-caption-main{
+  width: 100%;
+}
+.fileinput-remove{
+  display: none;
+}
+
+.application-reject-set-auditor{
+  width: 100%;
+  text-transform:uppercase;
+}
+.datagrid-editable-input,.datagrid-cell-c1-emp_no{
+  text-transform:uppercase;
+}
+.application-reject-set-auditor-wrap{
+  margin-top: 20px;
+  margin-left: 85px;
+  margin-bottom: 50px;
+}
+.file-caption-icon .glyphicon{
+  top: 3px;
+}
+.datagrid-body td{
+  color:#000;
+}
+.datagrid-row-selected{
+  background: rgba(0,146,220,0.3);
+}
+.table-icon{
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-top: 3px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.up{
+  background: url(./../images/up.png) no-repeat;
+}
+.down{
+  background: url(./../images/down.png) no-repeat;
+}
+.add{
+  background: url(./../images/add.png) no-repeat;
+}
+.deleteOne{
+  background: url(./../images/delete.png) no-repeat;
+}
+.function-btn{
+  width: 160px;
+  margin: 0 auto;
+}
+.application-reject-cancel{
+  display: none;
+}
+.application-reject-submit,.application-reject-keep,.application-reject-cancel{
+  width: 45px;
+}
+.application-reject-submit{
+  color: #fff;
+  background: #0056a9;
+  margin-right: 30px;
+}
+.application-reject-leader-name{
+  display: block;
+  margin-left: 65px;
+}
+.application-reject-span-result{
+  margin-left: 65px;
+}
+.application-reject-label-suggestion{
+  margin-left:30px;
+}
+.application-reject-return-path{
+  margin-top:70px;
+  margin-left: 65px;
+}
+.application-reject-input-suggestion-wrap{
+  top:40px;
+  left:15px;
+}
+.application-reject-record-label{
+  display: block;
+  width: 88px;
+  height: 24px;
+  color:#fff;
+  text-align: center;
+  line-height: 24px;
+  background: url(./../images/sign-lable.png);
+}
+.application-reject-delete-document{
+  top: 70px;
+  right: 30px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(./../images/deleteDocument.png);
+  cursor: pointer;
+}
+.application-reject-history-table-wrap{
+  width: 93%;
+  margin-left: 85px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.application-reject-input{
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+}
+.application-reject-label{
+  width: 80px;
+}
+
+.application-reject-input-wrap{
+  display: inline-block;
+}
+.application-reject-input-theme{
+  width: 1035px;
+}
+.application-reject-input-code{
+  width: 160px;
+  text-transform:uppercase;
+}
+.application-reject-input-dept{
+  width: 780px;
+}
+.application-reject-input-ID{
+  width: 160px;
+  text-transform:uppercase;
+}
+.application-reject-input-name{
+  width: 160px;
+}
+.application-reject-input-number{
+  width: 160px;
+}
+.application-reject-input-mail{
+  width: 277px;
+}
+
+
+@media screen and (max-width: 1365px){
+  .application-reject-label-dept,.application-reject-label-name,.application-reject-label-number,.application-reject-label-mail{
+    margin-left: 0;
+  }
+  .application-reject-input-wrap{
+    display: block;
+  }
+  .application-reject-input-theme{
+    width: 70%;
+  }
+  .application-reject-input-code{
+    width: 90%;
+    text-transform:uppercase;
+  }
+  .application-reject-input-dept{
+    width: 90%;
+  }
+  .application-reject-input-ID{
+    width: 90%;
+    text-transform:uppercase;
+  }
+  .application-reject-input-name{
+    width: 90%;
+  }
+  .application-reject-input-number{
+    width: 90%;
+  }
+  .application-reject-input-mail{
+    width: 90%;
+  }
+}
+@media screen and (min-width:1365px) and (max-width:1680px){
+  .application-reject-input-wrap{
+    display: inline-block;
+  }
+  .application-reject-input-theme{
+    width: 80%;
+  }
+  .application-reject-input-code{
+    width: 295px;
+    text-transform:uppercase;
+  }
+  .application-reject-input-dept{
+    width: 510px;
+  }
+  .application-reject-input-ID{
+    width: 130px;
+    text-transform:uppercase;
+  }
+  .application-reject-input-name{
+    width: 130px;
+  }
+  .application-reject-input-number{
+    width: 130px;
+  }
+  .application-reject-input-mail{
+    width: 210px;
+  }
+}
+@media screen and (min-width:1680px) and (max-width:1800px){
+  .application-reject-input-wrap{
+    display: inline-block;
+  }
+  .application-reject-input-theme{
+    width: 1080px;
+  }
+  .application-reject-input-code{
+    width: 295px;
+    text-transform:uppercase;
+  }
+  .application-reject-input-dept{
+    width: 680px;
+  }
+  .application-reject-input-ID{
+    width: 150px;
+    text-transform:uppercase;
+  }
+  .application-reject-input-name{
+    width: 150px;
+  }
+  .application-reject-input-number{
+    width: 150px;
+  }
+  .application-reject-input-mail{
+    width: 320px;
+  }
+}
+@media screen and (min-width:1800px) and (max-width:1920px){
+  .application-reject-input-wrap{
+    display: inline-block;
+  }
+  .application-reject-input-theme{
+    width: 1250px;
+  }
+  .application-reject-input-code{
+    width: 295px;
+    text-transform:uppercase;
+  }
+  .application-reject-input-dept{
+    width: 850px;
+  }
+  .application-reject-input-ID{
+    width: 150px;
+    text-transform:uppercase;
+  }
+  .application-reject-input-name{
+    width: 150px;
+  }
+  .application-reject-input-number{
+    width: 150px;
+  }
+  .application-reject-input-mail{
+    width: 490px;
+  }
+}
+@media screen and (width: 1920px) {
+  .application-reject-input-wrap{
+    display: inline-block;
+  }
+  .application-reject-input-theme{
+    width: 1350px;
+  }
+  .application-reject-input-code{
+    width: 295px;
+    text-transform:uppercase;
+  }
+  .application-reject-input-dept{
+    width: 950px;
+  }
+  .application-reject-input-ID{
+    width: 200px;
+    text-transform:uppercase;
+  }
+  .application-reject-input-name{
+    width: 200px;
+  }
+  .application-reject-input-number{
+    width: 200px;
+  }
+  .application-reject-input-mail{
+    width: 440px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .application-reject-input-wrap{
+    display: inline-block;
+  }
+  .application-reject-input-theme{
+    width: 1350px;
+  }
+  .application-reject-input-code{
+    width: 295px;
+    text-transform:uppercase;
+  }
+  .application-reject-input-dept{
+    width: 950px;
+  }
+  .application-reject-input-ID{
+    width: 200px;
+    text-transform:uppercase;
+  }
+  .application-reject-input-name{
+    width: 200px;
+  }
+  .application-reject-input-number{
+    width: 200px;
+  }
+  .application-reject-input-mail{
+    width: 440px;
+  }
+}
+.system-icon{
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  top:-30px;
+  left: 0;
+  border-bottom: 1px solid #000;
+  background: url(./../images/home_page_logo.png) no-repeat left center;
+  padding-left: 70px;
+  line-height: 50px;
+  font-size: 16px;
+}

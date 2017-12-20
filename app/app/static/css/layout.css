@@ -1,0 +1,371 @@
+.layout-wrap{
+  width: 100%;
+  height: 100%;
+}
+.layout-tool{
+  width: 100%;
+  height: 20px;
+  margin-bottom: 20px;
+}
+.layout-set{
+  border: 2px solid #fff;
+}
+.title-four{
+  display: inline-block;
+  height: 20px;
+  width: 100px;
+}
+.vertical{
+  display: inline-block;
+  bottom: 0;
+  width: 4px;
+  height: 16px;
+  border-radius:2px;
+  background-color: #246db0;
+}
+.title-fourfont{
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  left: 16px;
+  bottom: 0;
+}
+.layout-tip{
+  display: inline-block;
+  vertical-align: top;
+  height: 26px;
+  line-height: 26px;
+}
+.layout-building{
+  margin-top: 0;
+}
+.layout-floor{
+  margin-top: 0;
+}
+.layout-line{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  width: 1px;
+  height: 12px;
+  background-color: #c2c2c2;
+}
+.imageOne{
+  background-image: url(./../community/icon-disabled.png);
+}
+.imageTwo{
+  background-image: url(./../community/icon-enable.png);
+  cursor: pointer;
+}
+.imageTwo:hover{
+  background-image: url(./../community/icon-hover.png);
+}
+.position-icon{
+  width: 17px;
+  height: 20px;
+  background-position: 259px -60px;
+}
+.lock-icon{
+  width: 16px;
+  height: 20px;
+  background-position: 218px -60px;
+}
+.dustbin-icon{
+  width: 20px;
+  height: 20px;
+  background-position: 200px -60px;
+}
+.drag-icon{
+  width: 18px;
+  height: 20px;
+  background-position: 180px -60px;
+}
+.narrow-icon{
+  width: 20px;
+  height: 20px;
+  background-position: 160px -60px;
+}
+.enlarge-icon{
+  width: 20px;
+  height: 19px;
+  background-position: 140px -60px;
+}
+.recover-icon{
+  width: 20px;
+  height: 16px;
+  background-position: 120px -62px;
+}
+.label-icon{
+  width: 18px;
+  height: 20px;
+  background-position: 99px -60px;
+}
+.layout-more{
+  width: 20px;
+  height: 20px;
+  background-position: 60px -60px;
+}
+.layout-operation{
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.icon-aggregate{
+  height: 30px;
+}
+.icon-aggregate a:hover{
+  text-decoration: none;
+}
+.icon-aggregate-two{
+  display: none;
+}
+.layout-background-image{
+  top: 50px;
+  left: 50%;
+  transform: translate(-75px, 0);
+  -ms-transform: translate(-75px,0);
+  -webkit-transform: translate(-75px,0);
+  -o-transform: translate(-75px,0);
+  -moz-transform: translate(-75px,0);
+  /*z-index: 15;*/
+}
+.line{
+  width: 1px;
+  height: 12px;
+  display: inline-block;
+  background-color: #c2c2c2;
+}
+.layout-background-image td{
+  color: #999;
+  width: 300px;
+  padding: 5px;
+}
+.layout-upload{
+  display: inline-block;
+  width: 160px;
+  height: 26px;
+  border: 1px solid #ddd;
+  text-align: right;
+  color: #333;
+  background-color: #fff;
+  margin-left: 10px;
+  padding: 0 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.layout-upload-icon {
+  display: inline-block;
+  width: 20px;
+  height: 26px;
+  background: url('./../community/icon-enable.png') -140px 0;
+}
+.layout-btn{
+  display: inline-block;
+  width: 50px;
+  height: 26px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+}
+.layout-btn-disable,.layout-btn-disable:hover{
+  color: #c2c2c2;
+  cursor: default;
+}
+.layout-background-image-two{
+  display: none;
+}
+.layout-set{
+  display: none;
+  width: 100%;
+  height: 100%;
+
+  /*z-index: 30;*/
+}
+.layout-select{
+  display: inline-block;
+  width: 45px;
+  border: none;
+  padding-left: 5px;
+  height: 24px;
+}
+.point,.pointEditing{
+  cursor:pointer;
+}
+.textImg{
+  cursor:text;
+}
+.layout-mark{
+  width: 42px;
+  height: 42px;
+  cursor:pointer;
+  background: url(./../community/mark-bg.png) no-repeat;
+  right:20px;
+  top:20px;
+  display: none;
+  z-index: 10;
+}
+.mark-icon{
+  width: 20px;
+  height: 20px;
+  margin-left: 11px;
+  margin-top: 9px;
+  background: url(./../community/icon-enable.png) 100px -60px;
+}
+.department-list{
+  width: 166px;
+  /*height: 176px;*/
+  top: 65px;
+  right:20px;
+  background: url(./../community/deptlist-bg.png) no-repeat;
+  background-size:100% 100%;
+  padding:6px 10px;
+  display: none;
+}
+.icon{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-top:2px;
+  margin-left:6px;
+}
+.icon-relation{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  /*margin-top:2px;*/
+  /*margin-left:6px;*/
+}
+.icon-irrelation{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  /*margin-top:2px;*/
+  /*margin-left:6px;*/
+}
+
+
+.distribution-icon{
+  background:url(./../community/icon-enable.png) 118px 0;
+}
+.association-icon{
+  background: url(./../community/icon-enable.png) 138px 0;
+}
+.textName{
+  display: inline-block;
+  width: 80px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 14px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  cursor: default;
+}
+.icon-bg{
+  display: inline-block;
+  width: 30px;
+  height: 26px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+.mark-area{
+  /*height: 104px;*/
+  /*overflow-y: scroll;*/
+  cursor: default;
+}
+.mark-title{
+  height: 26px;
+  line-height: 26px;
+  margin-top: 35px;
+  color: #999;
+  cursor: default;
+}
+.dept{
+  margin-left: 16px;
+}
+/*.status{*/
+  /*margin-right: 18px;*/
+/*}*/
+ol.mark-list li{
+  /*background-color: #2e6da4;*/
+  /*list-style: decimal inside;*/
+  height: 20px;
+  line-height: 20px;
+}
+.mark-list-text{
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  width: 100px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  font-size: 12px;
+}
+.relevant-icon{
+  /*margin-bottom: 5px;*/
+  background: url(./../community/icon-enable.png) 39px -60px;
+}
+.irrelevant-icon{
+  /*margin-bottom: 5px;*/
+  background: url(./../community/icon-enable.png) 20px -60px;
+}
+.gray-bg{
+  background-color: #f2f2f2;
+}
+.gray-font{
+ color: #c7c7c7;
+}
+.upload{
+  width: 700px;
+  height: 500px;
+  background-color: #fff;
+  position: absolute;
+  top:100px;
+  left: 233px;
+  /*display: none;*/
+}
+.preview{
+  /*width: 1166px;*/
+  /*height: 600px;*/
+  background-color: #fff;
+  /*z-index: 30;*/
+}
+#fileupload{
+  width: 200px;
+  display: inline-block;
+}
+
+.upload-icon{
+  display: none;
+  background:  url(./../community/tips-flip.png) no-repeat;
+  background-size:76px 30px;
+  /*line-height: 30px;*/
+  /*padding-top: 6px;*/
+  /*padding-bottom: 4px;*/
+  /*padding-left:3px;*/
+  /*padding-right:3px;*/
+  padding:6px 3px 4px 3px;
+  font-size: 14px;
+  text-align: center;
+  width: 76px;
+  height: 30px;
+  right:-30px;
+  top:25px;
+  z-index: 10;
+  cursor: pointer;
+}
+/*.layout-more li{*/
+  /*background-color: red;*/
+/*}*/
+.upload-icon li:hover{
+  background-color: #e8f7ff;
+  /*height: 20px;*/
+  text-align: center;
+  /*width: 60px;*/
+}
